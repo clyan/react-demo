@@ -24,6 +24,8 @@ export default function Login() {
     })
   }
 
+  console.log('456')
+
   return (
     <div>
       <p>You must log in to view the page at {from}</p>
