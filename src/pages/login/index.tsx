@@ -24,6 +24,9 @@ export default function Login() {
     })
   }
 
+  // eslint-disable-next-line no-console
+  console.log('123')
+
   return (
     <div>
       <p>You must log in to view the page at {from}</p>
