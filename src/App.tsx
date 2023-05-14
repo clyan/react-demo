@@ -4,9 +4,9 @@ import { AuthProvider } from './pages/auth/hooks/auth-provider'
 
 function App() {
   return (
-   <AuthProvider>
-    <RouterProvider router={router} />
-   </AuthProvider>
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   )
 }
 
