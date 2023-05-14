@@ -24,7 +24,8 @@ export default function Login() {
     })
   }
 
-  console.log('456')
+  // eslint-disable-next-line no-console
+  console.log('123')
 
   return (
     <div>
