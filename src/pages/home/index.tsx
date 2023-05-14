@@ -9,6 +9,6 @@ export function Home() {
   const { data } = useQuery(['1'], {})
 
   return <>
-    HOME.
+    HOME2.
    </>
 }
