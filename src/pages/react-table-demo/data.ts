@@ -1,3 +1,8 @@
+/**
+ * @description react table model
+ * @author clyan
+ */
+
 export interface Person {
   firstName: string
   lastName: string
