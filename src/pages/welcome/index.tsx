@@ -4,5 +4,5 @@
  */
 
 export function Welcome() {
-  return <> WelCome </>
+  return <> Welcome </>
 }
