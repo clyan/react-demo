@@ -10,6 +10,7 @@ import { ReactTablePage } from '../pages/react-table-page'
 import { Layout } from '../pages/layout'
 import { Welcome } from '../pages/welcome'
 import { RequireAuth } from '../pages/auth/components/require-auth'
+import { NoMatch } from '../pages/no-match'
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             <ReactTablePage />
           </RequireAuth>
         ),
+      },
+      {
+        path: '*',
+        element: <NoMatch />,
       },
     ],
   },
