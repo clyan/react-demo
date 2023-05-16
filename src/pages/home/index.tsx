@@ -8,7 +8,9 @@ import { useQuery } from '@tanstack/react-query'
 export function Home() {
   const { data } = useQuery(['1'], {})
 
-  return <>
-    HOME2.
-   </>
+  return (
+    <>
+      HOME2.
+    </>
+  )
 }

@@ -34,7 +34,11 @@ export function AuthProvider({ children }: PropsWithChildren) {
 
   const value = { user, signIn, signOut }
 
-  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
+  return (
+    <AuthContext.Provider value={value}>
+      {children}
+    </AuthContext.Provider>
+  )
 }
 
 export function useAuth() {

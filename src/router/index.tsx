@@ -3,15 +3,14 @@
  * @author clyan
  */
 
-import {
-  createBrowserRouter,
-} from 'react-router-dom'
+import { createBrowserRouter } from 'react-router-dom'
 
-import AuthLayout from '../pages/auth'
 import Login from '../pages/login'
-import { ReactTableDemo } from '../pages/react-table-demo'
+import { ReactTablePage } from '../pages/react-table-page'
 import { Layout } from '../pages/layout'
 import { Welcome } from '../pages/welcome'
+import { RequireAuth } from '../pages/auth/components/require-auth'
+import { NoMatch } from '../pages/no-match'
 
 const router = createBrowserRouter([
   {
@@ -26,22 +25,16 @@ const router = createBrowserRouter([
         element: <Login />,
       },
       {
-        path: 'react-table-demo',
-        element: <ReactTableDemo />,
-      },
-    ],
-  },
-  {
-    element: <AuthLayout />,
-    children: [
-      {
-        path: 'login',
-        element: <Login />,
-        // loader: redirectIfUser,
+        path: '/react-table-page',
+        element: (
+          <RequireAuth>
+            <ReactTablePage />
+          </RequireAuth>
+        ),
       },
       {
-        path: 'logout',
-        // action: logoutUser,
+        path: '*',
+        element: <NoMatch />,
       },
     ],
   },

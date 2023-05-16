@@ -1,4 +1,8 @@
-import React from 'react'
+/**
+ * @description 项目主入口
+ * @author clyan
+ */
+
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './app.css'
