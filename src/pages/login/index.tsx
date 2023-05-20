@@ -5,6 +5,7 @@
 
 import { useLocation, useNavigate } from 'react-router-dom'
 import React from 'react'
+import { useMutation } from '@tanstack/react-query'
 import { useAuth } from '../auth/hooks/auth-provider'
 
 export default function Login() {
@@ -14,11 +15,23 @@ export default function Login() {
 
   const from = location.state?.from?.pathname || '/'
 
-  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  const { mutateAsync } = useMutation(['login'], () => {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(true)
+      }, 2000)
+    })
+  })
+
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
 
     const formData = new FormData(event.currentTarget)
     const username = formData.get('username') as string
+    const data = await mutateAsync()
+
+    // eslint-disable-next-line no-console
+    console.log('data', data)
 
     auth.signIn(username, () => {
       navigate(from, { replace: true })
@@ -35,9 +48,11 @@ export default function Login() {
           Username:
           <input name="username" type="text" />
         </label>
-        <button type="submit">
-          Login
-        </button>
+        <span>
+          <button type="submit">
+            Login
+          </button>
+        </span>
       </form>
     </div>
   )
