@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# uno.css 只在开发环境中使用
+src/styles/uno.css

@@ -11,5 +11,10 @@
     "jsonc",
     "json5"
   ],
-  "cSpell.words": ["tanstack"]
+  "cSpell.words": [
+    "craco",
+    "iconify",
+    "tanstack",
+    "unocss"
+  ]
 }

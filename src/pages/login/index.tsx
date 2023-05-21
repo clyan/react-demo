@@ -6,7 +6,7 @@
 import { useLocation, useNavigate } from 'react-router-dom'
 import React from 'react'
 import { useMutation } from '@tanstack/react-query'
-import { useAuth } from '../auth/hooks/auth-provider'
+import { useAuth } from '@pages/auth/hooks/auth-provider'
 
 export default function Login() {
   const navigate = useNavigate()
@@ -49,7 +49,8 @@ export default function Login() {
           <input name="username" type="text" />
         </label>
         <span>
-          <button type="submit">
+          <span className="i-mdi:refresh" />
+          <button className="text-amber pl-10" type="submit">
             Login
           </button>
         </span>
