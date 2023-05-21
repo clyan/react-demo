@@ -11,14 +11,14 @@ import { Menu } from './components/menu'
 export function Layout() {
   return (
     <div>
-      <header>
+      <header className="flex justify-end">
         <AuthStatus />
       </header>
-      <main>
+      <main className="flex">
         <aside>
           <Menu />
         </aside>
-        <article>
+        <article className="p-5">
           <Outlet />
         </article>
       </main>

@@ -13,7 +13,7 @@ export function MenuInner(props: PropsWithStyleAndClassName) {
 
   const renderMenu = useCallback((menus: typeof router.routes): ReactNode => {
     return (
-      <ul>
+      <ul className="list-none p-0">
         {
           menus?.map((route) => {
             if (route.children) {

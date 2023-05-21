@@ -15,7 +15,7 @@ export default function Login() {
 
   const from = location.state?.from?.pathname || '/'
 
-  const { mutateAsync } = useMutation(['login'], () => {
+  const { mutateAsync, isLoading } = useMutation(['login'], () => {
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(true)
@@ -48,12 +48,10 @@ export default function Login() {
           Username:
           <input name="username" type="text" />
         </label>
-        <span>
-          <span className="i-mdi:refresh" />
-          <button className="text-amber pl-10" type="submit">
-            Login
-          </button>
-        </span>
+        <button className="text-amber" type="submit">
+          { !!isLoading && <span className="i-mdi:refresh animate-spin" /> }
+          Login
+        </button>
       </form>
     </div>
   )

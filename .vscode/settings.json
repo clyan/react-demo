@@ -4,6 +4,11 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.quickSuggestions": {
+    "strings": true,
+    "other": true,
+    "comments": true
+  },
   "eslint.validate": [
     "javascript",
     "javascriptreact",
