@@ -11,24 +11,35 @@ import { Layout } from '../pages/layout'
 import { Welcome } from '../pages/welcome'
 import { RequireAuth } from '../pages/auth/components/require-auth'
 import { NoMatch } from '../pages/no-match'
+import { KonvaPage } from '../pages/konva-page'
+import { RouterKey } from './models/enums'
 
 const router = createBrowserRouter([
   {
     element: <Layout />,
     children: [
       {
-        path: '/',
+        path: RouterKey.Home,
         element: <Welcome />,
       },
       {
-        path: '/login',
+        path: RouterKey.Login,
         element: <Login />,
       },
       {
-        path: '/react-table-page',
+        path: RouterKey.ReactTablePage,
         element: (
           <RequireAuth>
             <ReactTablePage />
+          </RequireAuth>
+        ),
+      },
+      {
+
+        path: RouterKey.KonvaPage,
+        element: (
+          <RequireAuth>
+            <KonvaPage />
           </RequireAuth>
         ),
       },

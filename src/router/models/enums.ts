@@ -10,4 +10,6 @@ export const enum RouterKey {
   Login = '/login',
   /** React Table */
   ReactTablePage = '/react-table-page',
+  /** 图形绘制页 */
+  KonvaPage = '/konva-page',
 }

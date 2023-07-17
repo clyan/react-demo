@@ -20,6 +20,8 @@
     "craco",
     "iconify",
     "tanstack",
-    "unocss"
+    "unocss",
+    "Konva",
+    "tanstack"
   ]
 }
