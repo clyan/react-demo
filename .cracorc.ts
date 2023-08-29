@@ -1,16 +1,23 @@
-import { CracoConfig } from "@craco/types";
-import UnoCSS from '@unocss/webpack'
-import {TsconfigPathsPlugin} from "tsconfig-paths-webpack-plugin";
+const UnoCSS =  require('@unocss/webpack').default
+const  {TsconfigPathsPlugin} = require("tsconfig-paths-webpack-plugin") ;
 
-const cracoConfig: CracoConfig = {
+const cracoConfig = {
   
   webpack: {
     configure: (webpackConfig, { env, paths }) => {
       const { plugins, resolve, optimization } = webpackConfig
 
       resolve?.plugins?.push(new TsconfigPathsPlugin())
-      
       plugins?.push(UnoCSS())
+
+      // 删除 ModuleScopePlugin
+      const index = resolve.plugins?.findIndex(item => {
+        return item.constructor.name ===  'ModuleScopePlugin'
+      });
+
+      if(index !== undefined && index > -1) {
+        resolve.plugins?.splice(index, 1)
+      }
 
       return {
         ...webpackConfig,
