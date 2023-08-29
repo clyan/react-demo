@@ -5,7 +5,7 @@
 
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './app.css'
+import './app.scss'
 import './styles/uno.css'
 
 const root = ReactDOM.createRoot(
