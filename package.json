@@ -7,6 +7,7 @@
     "start:css": "unocss 'src/**/*.tsx' --out-file=src/styles/uno.css --watch",
     "start:web": "craco start",
     "start": "run-p start:*",
+    "debug": "craco build",
     "build:unocss": "unocss 'src/**/*.tsx' --out-file=src/styles/uno.css",
     "build": "pnpm build:unocss && craco build",
     "test": "craco test",
@@ -34,6 +35,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@babel/helper-plugin-utils": "^7.24.6",
     "@clyan/eslint-config-react": "^1.0.1",
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",

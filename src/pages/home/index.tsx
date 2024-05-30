@@ -7,11 +7,13 @@ import { useQuery } from '@tanstack/react-query'
 
 export function Home() {
   const { data } = useQuery(['1'], {})
-  // eslint-disable-next-line no-console
-  console.log('data', data)
 
   return (
     <>
+      {
+        // eslint-disable-next-line no-console
+        console.log('data', data)
+      }
       HOME2.
     </>
   )

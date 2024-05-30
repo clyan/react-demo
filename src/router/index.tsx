@@ -8,7 +8,7 @@ import { createBrowserRouter } from 'react-router-dom'
 import Login from '../pages/login'
 import { ReactTablePage } from '../pages/react-table-page'
 import { Layout } from '../pages/layout'
-import { Welcome } from '../pages/welcome'
+import { Home } from '../pages/home'
 import { RequireAuth } from '../pages/auth/components/require-auth'
 import { NoMatch } from '../pages/no-match'
 import { KonvaPage } from '../pages/konva-page'
@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: RouterKey.Home,
-        element: <Welcome />,
+        element: <Home />,
       },
       {
         path: RouterKey.Login,
