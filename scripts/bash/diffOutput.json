@@ -1,0 +1,5675 @@
+[
+  {
+    "blocks": [
+      {
+        "lines": [
+          {
+            "content": "     \"craco\",",
+            "type": "context",
+            "oldNumber": 20,
+            "newNumber": 20
+          },
+          {
+            "content": "     \"iconify\",",
+            "type": "context",
+            "oldNumber": 21,
+            "newNumber": 21
+          },
+          {
+            "content": "     \"tanstack\",",
+            "type": "context",
+            "oldNumber": 22,
+            "newNumber": 22
+          },
+          {
+            "content": "-    \"unocss\"",
+            "type": "delete",
+            "oldNumber": 23
+          },
+          {
+            "content": "+    \"unocss\",",
+            "type": "insert",
+            "newNumber": 23
+          },
+          {
+            "content": "+    \"Konva\",",
+            "type": "insert",
+            "newNumber": 24
+          },
+          {
+            "content": "+    \"tanstack\"",
+            "type": "insert",
+            "newNumber": 25
+          },
+          {
+            "content": "   ]",
+            "type": "context",
+            "oldNumber": 24,
+            "newNumber": 26
+          },
+          {
+            "content": " }",
+            "type": "context",
+            "oldNumber": 25,
+            "newNumber": 27
+          }
+        ],
+        "oldStartLine": 20,
+        "oldStartLine2": null,
+        "newStartLine": 20,
+        "header": "@@ -20,6 +20,8 @@"
+      }
+    ],
+    "deletedLines": 1,
+    "addedLines": 3,
+    "isGitDiff": true,
+    "checksumBefore": "7328ed4",
+    "checksumAfter": "3a4fefb",
+    "mode": "100644",
+    "oldName": ".vscode/settings.json",
+    "language": "json",
+    "newName": ".vscode/settings.json",
+    "isCombined": false
+  },
+  {
+    "blocks": [
+      {
+        "lines": [
+          {
+            "content": "     \"@tanstack/react-table\": \"^8.8.5\",",
+            "type": "context",
+            "oldNumber": 19,
+            "newNumber": 19
+          },
+          {
+            "content": "     \"@unocss/preset-rem-to-px\": \"^0.51.13\",",
+            "type": "context",
+            "oldNumber": 20,
+            "newNumber": 20
+          },
+          {
+            "content": "     \"@unocss/reset\": \"^0.51.13\",",
+            "type": "context",
+            "oldNumber": 21,
+            "newNumber": 21
+          },
+          {
+            "content": "+    \"bezier-js\": \"^6.1.3\",",
+            "type": "insert",
+            "newNumber": 22
+          },
+          {
+            "content": "+    \"konva\": \"^9.0.2\",",
+            "type": "insert",
+            "newNumber": 23
+          },
+          {
+            "content": "     \"react\": \"^18.2.0\",",
+            "type": "context",
+            "oldNumber": 22,
+            "newNumber": 24
+          },
+          {
+            "content": "     \"react-dom\": \"^18.2.0\",",
+            "type": "context",
+            "oldNumber": 23,
+            "newNumber": 25
+          },
+          {
+            "content": "+    \"react-konva\": \"^18.2.8\",",
+            "type": "insert",
+            "newNumber": 26
+          },
+          {
+            "content": "     \"react-router-dom\": \"^6.11.1\",",
+            "type": "context",
+            "oldNumber": 24,
+            "newNumber": 27
+          },
+          {
+            "content": "     \"react-table\": \"^7.8.0\",",
+            "type": "context",
+            "oldNumber": 25,
+            "newNumber": 28
+          },
+          {
+            "content": "+    \"react-use\": \"^17.4.0\",",
+            "type": "insert",
+            "newNumber": 29
+          },
+          {
+            "content": "     \"web-vitals\": \"^2.1.4\"",
+            "type": "context",
+            "oldNumber": 26,
+            "newNumber": 30
+          },
+          {
+            "content": "   },",
+            "type": "context",
+            "oldNumber": 27,
+            "newNumber": 31
+          },
+          {
+            "content": "   \"devDependencies\": {",
+            "type": "context",
+            "oldNumber": 28,
+            "newNumber": 32
+          }
+        ],
+        "oldStartLine": 19,
+        "oldStartLine2": null,
+        "newStartLine": 19,
+        "header": "@@ -19,10 +19,14 @@"
+      },
+      {
+        "lines": [
+          {
+            "content": "     \"@testing-library/jest-dom\": \"^5.16.5\",",
+            "type": "context",
+            "oldNumber": 34,
+            "newNumber": 38
+          },
+          {
+            "content": "     \"@testing-library/react\": \"^13.4.0\",",
+            "type": "context",
+            "oldNumber": 35,
+            "newNumber": 39
+          },
+          {
+            "content": "     \"@testing-library/user-event\": \"^13.5.0\",",
+            "type": "context",
+            "oldNumber": 36,
+            "newNumber": 40
+          },
+          {
+            "content": "+    \"@types/bezier-js\": \"^4.1.0\",",
+            "type": "insert",
+            "newNumber": 41
+          },
+          {
+            "content": "     \"@types/jest\": \"^27.5.2\",",
+            "type": "context",
+            "oldNumber": 37,
+            "newNumber": 42
+          },
+          {
+            "content": "     \"@types/node\": \"^16.18.24\",",
+            "type": "context",
+            "oldNumber": 38,
+            "newNumber": 43
+          },
+          {
+            "content": "     \"@types/react\": \"^18.2.0\",",
+            "type": "context",
+            "oldNumber": 39,
+            "newNumber": 44
+          }
+        ],
+        "oldStartLine": 34,
+        "oldStartLine2": null,
+        "newStartLine": 38,
+        "header": "@@ -34,6 +38,7 @@"
+      }
+    ],
+    "deletedLines": 0,
+    "addedLines": 5,
+    "isGitDiff": true,
+    "checksumBefore": "badcedb",
+    "checksumAfter": "bcf5937",
+    "mode": "100644",
+    "oldName": "package.json",
+    "language": "json",
+    "newName": "package.json",
+    "isCombined": false
+  },
+  {
+    "blocks": [
+      {
+        "lines": [
+          {
+            "content": "   '@testing-library/jest-dom': ^5.16.5",
+            "type": "context",
+            "oldNumber": 12,
+            "newNumber": 12
+          },
+          {
+            "content": "   '@testing-library/react': ^13.4.0",
+            "type": "context",
+            "oldNumber": 13,
+            "newNumber": 13
+          },
+          {
+            "content": "   '@testing-library/user-event': ^13.5.0",
+            "type": "context",
+            "oldNumber": 14,
+            "newNumber": 14
+          },
+          {
+            "content": "+  '@types/bezier-js': ^4.1.0",
+            "type": "insert",
+            "newNumber": 15
+          },
+          {
+            "content": "   '@types/jest': ^27.5.2",
+            "type": "context",
+            "oldNumber": 15,
+            "newNumber": 16
+          },
+          {
+            "content": "   '@types/node': ^16.18.24",
+            "type": "context",
+            "oldNumber": 16,
+            "newNumber": 17
+          },
+          {
+            "content": "   '@types/react': ^18.2.0",
+            "type": "context",
+            "oldNumber": 17,
+            "newNumber": 18
+          }
+        ],
+        "oldStartLine": 12,
+        "oldStartLine2": null,
+        "newStartLine": 12,
+        "header": "@@ -12,6 +12,7 @@ specifiers:"
+      },
+      {
+        "lines": [
+          {
+            "content": "   '@unocss/preset-rem-to-px': ^0.51.13",
+            "type": "context",
+            "oldNumber": 20,
+            "newNumber": 21
+          },
+          {
+            "content": "   '@unocss/reset': ^0.51.13",
+            "type": "context",
+            "oldNumber": 21,
+            "newNumber": 22
+          },
+          {
+            "content": "   '@unocss/webpack': ^0.51.13",
+            "type": "context",
+            "oldNumber": 22,
+            "newNumber": 23
+          },
+          {
+            "content": "+  bezier-js: ^6.1.3",
+            "type": "insert",
+            "newNumber": 24
+          },
+          {
+            "content": "   eslint: ^8.39.0",
+            "type": "context",
+            "oldNumber": 23,
+            "newNumber": 25
+          },
+          {
+            "content": "   git-cz: ^4.9.0",
+            "type": "context",
+            "oldNumber": 24,
+            "newNumber": 26
+          },
+          {
+            "content": "   husky: ^8.0.3",
+            "type": "context",
+            "oldNumber": 25,
+            "newNumber": 27
+          },
+          {
+            "content": "+  konva: ^9.0.2",
+            "type": "insert",
+            "newNumber": 28
+          },
+          {
+            "content": "   lint-staged: ^13.2.2",
+            "type": "context",
+            "oldNumber": 26,
+            "newNumber": 29
+          },
+          {
+            "content": "   npm-run-all: ^4.1.5",
+            "type": "context",
+            "oldNumber": 27,
+            "newNumber": 30
+          },
+          {
+            "content": "   react: ^18.2.0",
+            "type": "context",
+            "oldNumber": 28,
+            "newNumber": 31
+          },
+          {
+            "content": "   react-dom: ^18.2.0",
+            "type": "context",
+            "oldNumber": 29,
+            "newNumber": 32
+          },
+          {
+            "content": "+  react-konva: ^18.2.8",
+            "type": "insert",
+            "newNumber": 33
+          },
+          {
+            "content": "   react-router-dom: ^6.11.1",
+            "type": "context",
+            "oldNumber": 30,
+            "newNumber": 34
+          },
+          {
+            "content": "   react-scripts: 5.0.1",
+            "type": "context",
+            "oldNumber": 31,
+            "newNumber": 35
+          },
+          {
+            "content": "   react-table: ^7.8.0",
+            "type": "context",
+            "oldNumber": 32,
+            "newNumber": 36
+          },
+          {
+            "content": "+  react-use: ^17.4.0",
+            "type": "insert",
+            "newNumber": 37
+          },
+          {
+            "content": "   tsconfig-paths-webpack-plugin: ^4.0.1",
+            "type": "context",
+            "oldNumber": 33,
+            "newNumber": 38
+          },
+          {
+            "content": "   typescript: ^4.9.5",
+            "type": "context",
+            "oldNumber": 34,
+            "newNumber": 39
+          },
+          {
+            "content": "   unocss: ^0.51.13",
+            "type": "context",
+            "oldNumber": 35,
+            "newNumber": 40
+          }
+        ],
+        "oldStartLine": 20,
+        "oldStartLine2": null,
+        "newStartLine": 21,
+        "header": "@@ -20,16 +21,20 @@ specifiers:"
+      },
+      {
+        "lines": [
+          {
+            "content": "   '@tanstack/react-table': 8.8.5_biqbaboplfbrettd7655fr4n2y",
+            "type": "context",
+            "oldNumber": 41,
+            "newNumber": 46
+          },
+          {
+            "content": "   '@unocss/preset-rem-to-px': 0.51.13",
+            "type": "context",
+            "oldNumber": 42,
+            "newNumber": 47
+          },
+          {
+            "content": "   '@unocss/reset': 0.51.13",
+            "type": "context",
+            "oldNumber": 43,
+            "newNumber": 48
+          },
+          {
+            "content": "+  bezier-js: 6.1.3",
+            "type": "insert",
+            "newNumber": 49
+          },
+          {
+            "content": "+  konva: 9.0.2",
+            "type": "insert",
+            "newNumber": 50
+          },
+          {
+            "content": "   react: 18.2.0",
+            "type": "context",
+            "oldNumber": 44,
+            "newNumber": 51
+          },
+          {
+            "content": "   react-dom: 18.2.0_react@18.2.0",
+            "type": "context",
+            "oldNumber": 45,
+            "newNumber": 52
+          },
+          {
+            "content": "+  react-konva: 18.2.8_3ix5eityo3art7xms4yy5bn3bu",
+            "type": "insert",
+            "newNumber": 53
+          },
+          {
+            "content": "   react-router-dom: 6.11.1_biqbaboplfbrettd7655fr4n2y",
+            "type": "context",
+            "oldNumber": 46,
+            "newNumber": 54
+          },
+          {
+            "content": "   react-table: 7.8.0_react@18.2.0",
+            "type": "context",
+            "oldNumber": 47,
+            "newNumber": 55
+          },
+          {
+            "content": "+  react-use: 17.4.0_biqbaboplfbrettd7655fr4n2y",
+            "type": "insert",
+            "newNumber": 56
+          },
+          {
+            "content": "   web-vitals: 2.1.4",
+            "type": "context",
+            "oldNumber": 48,
+            "newNumber": 57
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 49,
+            "newNumber": 58
+          },
+          {
+            "content": " devDependencies:",
+            "type": "context",
+            "oldNumber": 50,
+            "newNumber": 59
+          }
+        ],
+        "oldStartLine": 41,
+        "oldStartLine2": null,
+        "newStartLine": 46,
+        "header": "@@ -41,10 +46,14 @@ dependencies:"
+      },
+      {
+        "lines": [
+          {
+            "content": "   '@testing-library/jest-dom': 5.16.5",
+            "type": "context",
+            "oldNumber": 56,
+            "newNumber": 65
+          },
+          {
+            "content": "   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y",
+            "type": "context",
+            "oldNumber": 57,
+            "newNumber": 66
+          },
+          {
+            "content": "   '@testing-library/user-event': 13.5.0",
+            "type": "context",
+            "oldNumber": 58,
+            "newNumber": 67
+          },
+          {
+            "content": "+  '@types/bezier-js': 4.1.0",
+            "type": "insert",
+            "newNumber": 68
+          },
+          {
+            "content": "   '@types/jest': 27.5.2",
+            "type": "context",
+            "oldNumber": 59,
+            "newNumber": 69
+          },
+          {
+            "content": "   '@types/node': 16.18.24",
+            "type": "context",
+            "oldNumber": 60,
+            "newNumber": 70
+          },
+          {
+            "content": "   '@types/react': 18.2.0",
+            "type": "context",
+            "oldNumber": 61,
+            "newNumber": 71
+          }
+        ],
+        "oldStartLine": 56,
+        "oldStartLine2": null,
+        "newStartLine": 65,
+        "header": "@@ -56,6 +65,7 @@ devDependencies:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     engines: {node: '>=6.9.0'}",
+            "type": "context",
+            "oldNumber": 1438,
+            "newNumber": 1448
+          },
+          {
+            "content": "     dependencies:",
+            "type": "context",
+            "oldNumber": 1439,
+            "newNumber": 1449
+          },
+          {
+            "content": "       regenerator-runtime: 0.13.11",
+            "type": "context",
+            "oldNumber": 1440,
+            "newNumber": 1450
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 1441
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 1442,
+            "newNumber": 1451
+          },
+          {
+            "content": "   /@babel/template/7.20.7:",
+            "type": "context",
+            "oldNumber": 1443,
+            "newNumber": 1452
+          },
+          {
+            "content": "     resolution: {integrity: sha512-8SegXApWe6VoNw0r9JHpSteLKTpTiLZ4rMlGIm9JQ18KiCtyQiAMEazujAHrUS5flrcqYZa75ukev3P6QmUwUw==}",
+            "type": "context",
+            "oldNumber": 1444,
+            "newNumber": 1453
+          }
+        ],
+        "oldStartLine": 1438,
+        "oldStartLine2": null,
+        "newStartLine": 1448,
+        "header": "@@ -1438,7 +1448,6 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       '@babel/types': 7.21.4",
+            "type": "context",
+            "oldNumber": 2725,
+            "newNumber": 2734
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 2726,
+            "newNumber": 2735
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 2727,
+            "newNumber": 2736
+          },
+          {
+            "content": "+  /@types/bezier-js/4.1.0:",
+            "type": "insert",
+            "newNumber": 2737
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-ElU16s8E6Pr6magp8ihwH1O8pbUJASbMND/qgUc9RsLmP3lMLHiDMRXdjtaObwW5GPtOVYOsXDUIhTIluT+yaw==}",
+            "type": "insert",
+            "newNumber": 2738
+          },
+          {
+            "content": "+    dev: true",
+            "type": "insert",
+            "newNumber": 2739
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 2740
+          },
+          {
+            "content": "   /@types/body-parser/1.19.2:",
+            "type": "context",
+            "oldNumber": 2728,
+            "newNumber": 2741
+          },
+          {
+            "content": "     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}",
+            "type": "context",
+            "oldNumber": 2729,
+            "newNumber": 2742
+          },
+          {
+            "content": "     dependencies:",
+            "type": "context",
+            "oldNumber": 2730,
+            "newNumber": 2743
+          }
+        ],
+        "oldStartLine": 2725,
+        "oldStartLine2": null,
+        "newStartLine": 2734,
+        "header": "@@ -2725,6 +2734,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       pretty-format: 27.5.1",
+            "type": "context",
+            "oldNumber": 2829,
+            "newNumber": 2842
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 2830,
+            "newNumber": 2843
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 2831,
+            "newNumber": 2844
+          },
+          {
+            "content": "+  /@types/js-cookie/2.2.7:",
+            "type": "insert",
+            "newNumber": 2845
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-aLkWa0C0vO5b4Sr798E26QgOkss68Un0bLjs7u9qxzPT5CG+8DuNTffWES58YzJs3hrVAOs1wonycqEBqNJubA==}",
+            "type": "insert",
+            "newNumber": 2846
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 2847
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 2848
+          },
+          {
+            "content": "   /@types/json-schema/7.0.11:",
+            "type": "context",
+            "oldNumber": 2832,
+            "newNumber": 2849
+          },
+          {
+            "content": "     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}",
+            "type": "context",
+            "oldNumber": 2833,
+            "newNumber": 2850
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 2834,
+            "newNumber": 2851
+          }
+        ],
+        "oldStartLine": 2829,
+        "oldStartLine2": null,
+        "newStartLine": 2842,
+        "header": "@@ -2829,6 +2842,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 2869,
+            "newNumber": 2886
+          },
+          {
+            "content": "   /@types/prop-types/15.7.5:",
+            "type": "context",
+            "oldNumber": 2870,
+            "newNumber": 2887
+          },
+          {
+            "content": "     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}",
+            "type": "context",
+            "oldNumber": 2871,
+            "newNumber": 2888
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 2872
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 2873,
+            "newNumber": 2889
+          },
+          {
+            "content": "   /@types/q/1.5.5:",
+            "type": "context",
+            "oldNumber": 2874,
+            "newNumber": 2890
+          },
+          {
+            "content": "     resolution: {integrity: sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ==}",
+            "type": "context",
+            "oldNumber": 2875,
+            "newNumber": 2891
+          }
+        ],
+        "oldStartLine": 2869,
+        "oldStartLine2": null,
+        "newStartLine": 2886,
+        "header": "@@ -2869,7 +2886,6 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       '@types/react': 18.2.0",
+            "type": "context",
+            "oldNumber": 2889,
+            "newNumber": 2905
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 2890,
+            "newNumber": 2906
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 2891,
+            "newNumber": 2907
+          },
+          {
+            "content": "+  /@types/react-reconciler/0.28.2:",
+            "type": "insert",
+            "newNumber": 2908
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-8tu6lHzEgYPlfDf/J6GOQdIc+gs+S2yAqlby3zTsB3SP2svlqTYe5fwZNtZyfactP74ShooP2vvi1BOp9ZemWw==}",
+            "type": "insert",
+            "newNumber": 2909
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 2910
+          },
+          {
+            "content": "+      '@types/react': 18.2.0",
+            "type": "insert",
+            "newNumber": 2911
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 2912
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 2913
+          },
+          {
+            "content": "   /@types/react/18.2.0:",
+            "type": "context",
+            "oldNumber": 2892,
+            "newNumber": 2914
+          },
+          {
+            "content": "     resolution: {integrity: sha512-0FLj93y5USLHdnhIhABk83rm8XEGA7kH3cr+YUlvxoUGp1xNt/DINUMvqPxLyOQMzLmZe8i4RTHbvb8MC7NmrA==}",
+            "type": "context",
+            "oldNumber": 2893,
+            "newNumber": 2915
+          },
+          {
+            "content": "     dependencies:",
+            "type": "context",
+            "oldNumber": 2894,
+            "newNumber": 2916
+          },
+          {
+            "content": "       '@types/prop-types': 15.7.5",
+            "type": "context",
+            "oldNumber": 2895,
+            "newNumber": 2917
+          },
+          {
+            "content": "       '@types/scheduler': 0.16.3",
+            "type": "context",
+            "oldNumber": 2896,
+            "newNumber": 2918
+          },
+          {
+            "content": "       csstype: 3.1.2",
+            "type": "context",
+            "oldNumber": 2897,
+            "newNumber": 2919
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 2898
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 2899,
+            "newNumber": 2920
+          },
+          {
+            "content": "   /@types/resolve/1.17.1:",
+            "type": "context",
+            "oldNumber": 2900,
+            "newNumber": 2921
+          },
+          {
+            "content": "     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}",
+            "type": "context",
+            "oldNumber": 2901,
+            "newNumber": 2922
+          }
+        ],
+        "oldStartLine": 2889,
+        "oldStartLine2": null,
+        "newStartLine": 2905,
+        "header": "@@ -2889,13 +2905,18 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 2909,
+            "newNumber": 2930
+          },
+          {
+            "content": "   /@types/scheduler/0.16.3:",
+            "type": "context",
+            "oldNumber": 2910,
+            "newNumber": 2931
+          },
+          {
+            "content": "     resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}",
+            "type": "context",
+            "oldNumber": 2911,
+            "newNumber": 2932
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 2912
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 2913,
+            "newNumber": 2933
+          },
+          {
+            "content": "   /@types/semver/7.3.13:",
+            "type": "context",
+            "oldNumber": 2914,
+            "newNumber": 2934
+          },
+          {
+            "content": "     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}",
+            "type": "context",
+            "oldNumber": 2915,
+            "newNumber": 2935
+          }
+        ],
+        "oldStartLine": 2909,
+        "oldStartLine2": null,
+        "newStartLine": 2930,
+        "header": "@@ -2909,7 +2930,6 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       '@xtuc/long': 4.2.2",
+            "type": "context",
+            "oldNumber": 3431,
+            "newNumber": 3451
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 3432,
+            "newNumber": 3452
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 3433,
+            "newNumber": 3453
+          },
+          {
+            "content": "+  /@xobotyi/scrollbar-width/1.9.5:",
+            "type": "insert",
+            "newNumber": 3454
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-N8tkAACJx2ww8vFMneJmaAgmjAG1tnVBZJRLRcx061tmsLRZHSEZSLuGWnwPtunsSLvSqXQ2wfp7Mgqg1I+2dQ==}",
+            "type": "insert",
+            "newNumber": 3455
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 3456
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 3457
+          },
+          {
+            "content": "   /@xtuc/ieee754/1.2.0:",
+            "type": "context",
+            "oldNumber": 3434,
+            "newNumber": 3458
+          },
+          {
+            "content": "     resolution: {integrity: sha512-DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==}",
+            "type": "context",
+            "oldNumber": 3435,
+            "newNumber": 3459
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 3436,
+            "newNumber": 3460
+          }
+        ],
+        "oldStartLine": 3431,
+        "oldStartLine2": null,
+        "newStartLine": 3451,
+        "header": "@@ -3431,6 +3451,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     resolution: {integrity: sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw==}",
+            "type": "context",
+            "oldNumber": 3992,
+            "newNumber": 4016
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 3993,
+            "newNumber": 4017
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 3994,
+            "newNumber": 4018
+          },
+          {
+            "content": "+  /bezier-js/6.1.3:",
+            "type": "insert",
+            "newNumber": 4019
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-VPFvkyO98oCJ1Tsi+bFBrKEWLdefAj4DJVaWp3xTEsdCbunC7Pt/nTeIgu/UdskBNcmHv8TOfsgdMZb1GsICmg==}",
+            "type": "insert",
+            "newNumber": 4020
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 4021
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 4022
+          },
+          {
+            "content": "   /bfj/7.0.2:",
+            "type": "context",
+            "oldNumber": 3995,
+            "newNumber": 4023
+          },
+          {
+            "content": "     resolution: {integrity: sha512-+e/UqUzwmzJamNF50tBV6tZPTORow7gQ96iFow+8b562OdMpEK0BcJEq2OSPEDmAbSMBQ7PKZ87ubFkgxpYWgw==}",
+            "type": "context",
+            "oldNumber": 3996,
+            "newNumber": 4024
+          },
+          {
+            "content": "     engines: {node: '>= 8.0.0'}",
+            "type": "context",
+            "oldNumber": 3997,
+            "newNumber": 4025
+          }
+        ],
+        "oldStartLine": 3992,
+        "oldStartLine2": null,
+        "newStartLine": 4016,
+        "header": "@@ -3992,6 +4016,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     engines: {node: '>= 0.6'}",
+            "type": "context",
+            "oldNumber": 4525,
+            "newNumber": 4553
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 4526,
+            "newNumber": 4554
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 4527,
+            "newNumber": 4555
+          },
+          {
+            "content": "+  /copy-to-clipboard/3.3.3:",
+            "type": "insert",
+            "newNumber": 4556
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-2KV8NhB5JqC3ky0r9PMCAZKbUHSwtEo4CwCs0KXgruG43gX5PMqDEBbVU4OUzw2MuAWUfsuFmWvEKG5QRfSnJA==}",
+            "type": "insert",
+            "newNumber": 4557
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 4558
+          },
+          {
+            "content": "+      toggle-selection: 1.0.6",
+            "type": "insert",
+            "newNumber": 4559
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 4560
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 4561
+          },
+          {
+            "content": "   /core-js-compat/3.30.1:",
+            "type": "context",
+            "oldNumber": 4528,
+            "newNumber": 4562
+          },
+          {
+            "content": "     resolution: {integrity: sha512-d690npR7MC6P0gq4npTl5n2VQeNAmUrJ90n+MHiKS7W2+xno4o3F5GDEuylSdi6EJ3VssibSGXOa1r3YXD3Mhw==}",
+            "type": "context",
+            "oldNumber": 4529,
+            "newNumber": 4563
+          },
+          {
+            "content": "     dependencies:",
+            "type": "context",
+            "oldNumber": 4530,
+            "newNumber": 4564
+          }
+        ],
+        "oldStartLine": 4525,
+        "oldStartLine2": null,
+        "newStartLine": 4553,
+        "header": "@@ -4525,6 +4553,12 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       postcss-selector-parser: 6.0.11",
+            "type": "context",
+            "oldNumber": 4668,
+            "newNumber": 4702
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 4669,
+            "newNumber": 4703
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 4670,
+            "newNumber": 4704
+          },
+          {
+            "content": "+  /css-in-js-utils/3.1.0:",
+            "type": "insert",
+            "newNumber": 4705
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-fJAcud6B3rRu+KHYk+Bwf+WFL2MDCJJ1XG9x137tJQ0xYxor7XziQtuGFbWNdqrvF4Tk26O3H73nfVqXt/fW1A==}",
+            "type": "insert",
+            "newNumber": 4706
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 4707
+          },
+          {
+            "content": "+      hyphenate-style-name: 1.0.4",
+            "type": "insert",
+            "newNumber": 4708
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 4709
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 4710
+          },
+          {
+            "content": "   /css-loader/6.7.3_webpack@5.80.0:",
+            "type": "context",
+            "oldNumber": 4671,
+            "newNumber": 4711
+          },
+          {
+            "content": "     resolution: {integrity: sha512-qhOH1KlBMnZP8FzRO6YCH9UHXQhVMcEGLyNdb7Hv2cpcmJbW0YrddO+tG1ab5nT41KpHIYGsbeHqxB9xPu1pKQ==}",
+            "type": "context",
+            "oldNumber": 4672,
+            "newNumber": 4712
+          },
+          {
+            "content": "     engines: {node: '>= 12.13.0'}",
+            "type": "context",
+            "oldNumber": 4673,
+            "newNumber": 4713
+          }
+        ],
+        "oldStartLine": 4668,
+        "oldStartLine2": null,
+        "newStartLine": 4702,
+        "header": "@@ -4668,6 +4702,12 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     dependencies:",
+            "type": "context",
+            "oldNumber": 4760,
+            "newNumber": 4800
+          },
+          {
+            "content": "       mdn-data: 2.0.14",
+            "type": "context",
+            "oldNumber": 4761,
+            "newNumber": 4801
+          },
+          {
+            "content": "       source-map: 0.6.1",
+            "type": "context",
+            "oldNumber": 4762,
+            "newNumber": 4802
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 4763
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 4764,
+            "newNumber": 4803
+          },
+          {
+            "content": "   /css-tree/2.3.1:",
+            "type": "context",
+            "oldNumber": 4765,
+            "newNumber": 4804
+          },
+          {
+            "content": "     resolution: {integrity: sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==}",
+            "type": "context",
+            "oldNumber": 4766,
+            "newNumber": 4805
+          }
+        ],
+        "oldStartLine": 4760,
+        "oldStartLine2": null,
+        "newStartLine": 4800,
+        "header": "@@ -4760,7 +4800,6 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 4877,
+            "newNumber": 4916
+          },
+          {
+            "content": "   /csstype/3.1.2:",
+            "type": "context",
+            "oldNumber": 4878,
+            "newNumber": 4917
+          },
+          {
+            "content": "     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}",
+            "type": "context",
+            "oldNumber": 4879,
+            "newNumber": 4918
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 4880
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 4881,
+            "newNumber": 4919
+          },
+          {
+            "content": "   /damerau-levenshtein/1.0.8:",
+            "type": "context",
+            "oldNumber": 4882,
+            "newNumber": 4920
+          },
+          {
+            "content": "     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}",
+            "type": "context",
+            "oldNumber": 4883,
+            "newNumber": 4921
+          }
+        ],
+        "oldStartLine": 4877,
+        "oldStartLine2": null,
+        "newStartLine": 4916,
+        "header": "@@ -4877,7 +4916,6 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     resolution: {integrity: sha512-Sk5V6wVazPhq5MhpO+AUxJn5x7XSXGl1R93Vn7i+zS15KDVxQijejNCrz8340/2bgLBjR9GtEG8ZVKONDjcqGQ==}",
+            "type": "context",
+            "oldNumber": 5288,
+            "newNumber": 5326
+          },
+          {
+            "content": "     dependencies:",
+            "type": "context",
+            "oldNumber": 5289,
+            "newNumber": 5327
+          },
+          {
+            "content": "       stackframe: 1.3.4",
+            "type": "context",
+            "oldNumber": 5290,
+            "newNumber": 5328
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 5291
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 5292,
+            "newNumber": 5329
+          },
+          {
+            "content": "   /es-abstract/1.21.2:",
+            "type": "context",
+            "oldNumber": 5293,
+            "newNumber": 5330
+          },
+          {
+            "content": "     resolution: {integrity: sha512-y/B5POM2iBnIxCiernH1G7rC9qQoM77lLIMQLuob0zhp8C56Po81+2Nj0WFKnd0pNReDTnkYryc+zhOzpEIROg==}",
+            "type": "context",
+            "oldNumber": 5294,
+            "newNumber": 5331
+          }
+        ],
+        "oldStartLine": 5288,
+        "oldStartLine2": null,
+        "newStartLine": 5326,
+        "header": "@@ -5288,7 +5326,6 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 6048,
+            "newNumber": 6085
+          },
+          {
+            "content": "   /fast-deep-equal/3.1.3:",
+            "type": "context",
+            "oldNumber": 6049,
+            "newNumber": 6086
+          },
+          {
+            "content": "     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}",
+            "type": "context",
+            "oldNumber": 6050,
+            "newNumber": 6087
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 6051
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 6052,
+            "newNumber": 6088
+          },
+          {
+            "content": "   /fast-glob/3.2.12:",
+            "type": "context",
+            "oldNumber": 6053,
+            "newNumber": 6089
+          },
+          {
+            "content": "     resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==}",
+            "type": "context",
+            "oldNumber": 6054,
+            "newNumber": 6090
+          }
+        ],
+        "oldStartLine": 6048,
+        "oldStartLine2": null,
+        "newStartLine": 6085,
+        "header": "@@ -6048,7 +6085,6 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}",
+            "type": "context",
+            "oldNumber": 6069,
+            "newNumber": 6105
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 6070,
+            "newNumber": 6106
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 6071,
+            "newNumber": 6107
+          },
+          {
+            "content": "+  /fast-loops/1.1.3:",
+            "type": "insert",
+            "newNumber": 6108
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-8EZzEP0eKkEEVX+drtd9mtuQ+/QrlfW/5MlwcwK5Nds6EkZ/tRzEexkzUY2mIssnAyVLT+TKHuRXmFNNXYUd6g==}",
+            "type": "insert",
+            "newNumber": 6109
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 6110
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 6111
+          },
+          {
+            "content": "+  /fast-shallow-equal/1.0.0:",
+            "type": "insert",
+            "newNumber": 6112
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-HPtaa38cPgWvaCFmRNhlc6NG7pv6NUHqjPgVAkWGoB9mQMwYB27/K0CvOM5Czy+qpT3e8XJ6Q4aPAnzpNpzNaw==}",
+            "type": "insert",
+            "newNumber": 6113
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 6114
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 6115
+          },
+          {
+            "content": "+  /fastest-stable-stringify/2.0.2:",
+            "type": "insert",
+            "newNumber": 6116
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-bijHueCGd0LqqNK9b5oCMHc0MluJAx0cwqASgbWMvkO01lCYgIhacVRLcaDz3QnyYIRNJRDwMb41VuT6pHJ91Q==}",
+            "type": "insert",
+            "newNumber": 6117
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 6118
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 6119
+          },
+          {
+            "content": "   /fastq/1.15.0:",
+            "type": "context",
+            "oldNumber": 6072,
+            "newNumber": 6120
+          },
+          {
+            "content": "     resolution: {integrity: sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==}",
+            "type": "context",
+            "oldNumber": 6073,
+            "newNumber": 6121
+          },
+          {
+            "content": "     dependencies:",
+            "type": "context",
+            "oldNumber": 6074,
+            "newNumber": 6122
+          }
+        ],
+        "oldStartLine": 6069,
+        "oldStartLine2": null,
+        "newStartLine": 6105,
+        "header": "@@ -6069,6 +6105,18 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     hasBin: true",
+            "type": "context",
+            "oldNumber": 6732,
+            "newNumber": 6780
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 6733,
+            "newNumber": 6781
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 6734,
+            "newNumber": 6782
+          },
+          {
+            "content": "+  /hyphenate-style-name/1.0.4:",
+            "type": "insert",
+            "newNumber": 6783
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==}",
+            "type": "insert",
+            "newNumber": 6784
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 6785
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 6786
+          },
+          {
+            "content": "   /iconv-lite/0.4.24:",
+            "type": "context",
+            "oldNumber": 6735,
+            "newNumber": 6787
+          },
+          {
+            "content": "     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}",
+            "type": "context",
+            "oldNumber": 6736,
+            "newNumber": 6788
+          },
+          {
+            "content": "     engines: {node: '>=0.10.0'}",
+            "type": "context",
+            "oldNumber": 6737,
+            "newNumber": 6789
+          }
+        ],
+        "oldStartLine": 6732,
+        "oldStartLine2": null,
+        "newStartLine": 6780,
+        "header": "@@ -6732,6 +6780,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}",
+            "type": "context",
+            "oldNumber": 6821,
+            "newNumber": 6873
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 6822,
+            "newNumber": 6874
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 6823,
+            "newNumber": 6875
+          },
+          {
+            "content": "+  /inline-style-prefixer/6.0.4:",
+            "type": "insert",
+            "newNumber": 6876
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-FwXmZC2zbeeS7NzGjJ6pAiqRhXR0ugUShSNb6GApMl6da0/XGc4MOJsoWAywia52EEWbXNSy0pzkwz/+Y+swSg==}",
+            "type": "insert",
+            "newNumber": 6877
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 6878
+          },
+          {
+            "content": "+      css-in-js-utils: 3.1.0",
+            "type": "insert",
+            "newNumber": 6879
+          },
+          {
+            "content": "+      fast-loops: 1.1.3",
+            "type": "insert",
+            "newNumber": 6880
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 6881
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 6882
+          },
+          {
+            "content": "   /internal-slot/1.0.5:",
+            "type": "context",
+            "oldNumber": 6824,
+            "newNumber": 6883
+          },
+          {
+            "content": "     resolution: {integrity: sha512-Y+R5hJrzs52QCG2laLn4udYVnxsfny9CpOhNhUvk/SSSVyF6T27FzRbF0sroPidSu3X8oEAkOn2K804mjpt6UQ==}",
+            "type": "context",
+            "oldNumber": 6825,
+            "newNumber": 6884
+          },
+          {
+            "content": "     engines: {node: '>= 0.4'}",
+            "type": "context",
+            "oldNumber": 6826,
+            "newNumber": 6885
+          }
+        ],
+        "oldStartLine": 6821,
+        "oldStartLine2": null,
+        "newStartLine": 6873,
+        "header": "@@ -6821,6 +6873,13 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       istanbul-lib-report: 3.0.0",
+            "type": "context",
+            "oldNumber": 7180,
+            "newNumber": 7239
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 7181,
+            "newNumber": 7240
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 7182,
+            "newNumber": 7241
+          },
+          {
+            "content": "+  /its-fine/1.1.1_react@18.2.0:",
+            "type": "insert",
+            "newNumber": 7242
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-v1Ia1xl20KbuSGlwoaGsW0oxsw8Be+TrXweidxD9oT/1lAh6O3K3/GIM95Tt6WCiv6W+h2M7RB1TwdoAjQyyKw==}",
+            "type": "insert",
+            "newNumber": 7243
+          },
+          {
+            "content": "+    peerDependencies:",
+            "type": "insert",
+            "newNumber": 7244
+          },
+          {
+            "content": "+      react: '>=18.0'",
+            "type": "insert",
+            "newNumber": 7245
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 7246
+          },
+          {
+            "content": "+      '@types/react-reconciler': 0.28.2",
+            "type": "insert",
+            "newNumber": 7247
+          },
+          {
+            "content": "+      react: 18.2.0",
+            "type": "insert",
+            "newNumber": 7248
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 7249
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 7250
+          },
+          {
+            "content": "   /jake/10.8.5:",
+            "type": "context",
+            "oldNumber": 7183,
+            "newNumber": 7251
+          },
+          {
+            "content": "     resolution: {integrity: sha512-sVpxYeuAhWt0OTWITwT98oyV0GsXyMlXCF+3L1SuafBVUIr/uILGRB+NqwkzhgXKvoJpDIpQvqkUALgdmQsQxw==}",
+            "type": "context",
+            "oldNumber": 7184,
+            "newNumber": 7252
+          },
+          {
+            "content": "     engines: {node: '>=10'}",
+            "type": "context",
+            "oldNumber": 7185,
+            "newNumber": 7253
+          }
+        ],
+        "oldStartLine": 7180,
+        "oldStartLine2": null,
+        "newStartLine": 7239,
+        "header": "@@ -7180,6 +7239,15 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     hasBin: true",
+            "type": "context",
+            "oldNumber": 7742,
+            "newNumber": 7810
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 7743,
+            "newNumber": 7811
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 7744,
+            "newNumber": 7812
+          },
+          {
+            "content": "+  /js-cookie/2.2.1:",
+            "type": "insert",
+            "newNumber": 7813
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==}",
+            "type": "insert",
+            "newNumber": 7814
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 7815
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 7816
+          },
+          {
+            "content": "   /js-sdsl/4.4.0:",
+            "type": "context",
+            "oldNumber": 7745,
+            "newNumber": 7817
+          },
+          {
+            "content": "     resolution: {integrity: sha512-FfVSdx6pJ41Oa+CF7RDaFmTnCaFhua+SNYQX74riGOpl96x+2jQCqEfQ2bnXu/5DPCqlRuiqyvTJM0Qjz26IVg==}",
+            "type": "context",
+            "oldNumber": 7746,
+            "newNumber": 7818
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 7747,
+            "newNumber": 7819
+          }
+        ],
+        "oldStartLine": 7742,
+        "oldStartLine2": null,
+        "newStartLine": 7810,
+        "header": "@@ -7742,6 +7810,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     resolution: {integrity: sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==}",
+            "type": "context",
+            "oldNumber": 7915,
+            "newNumber": 7987
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 7916,
+            "newNumber": 7988
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 7917,
+            "newNumber": 7989
+          },
+          {
+            "content": "+  /konva/9.0.2:",
+            "type": "insert",
+            "newNumber": 7990
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-kHPqZkIN191ysRD5OnWezIzcJtENyMZkCqRxi4szq9iyGzBDugxZkx5RmHWkmuDE9cR1lyeJoeQTeV5hoaGplg==}",
+            "type": "insert",
+            "newNumber": 7991
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 7992
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 7993
+          },
+          {
+            "content": "   /language-subtag-registry/0.3.22:",
+            "type": "context",
+            "oldNumber": 7918,
+            "newNumber": 7994
+          },
+          {
+            "content": "     resolution: {integrity: sha512-tN0MCzyWnoz/4nHS6uxdlFWoUZT7ABptwKPQ52Ea7URk6vll88bWBVhodtnlfEuCcKWNGoc+uGbw1cwa9IKh/w==}",
+            "type": "context",
+            "oldNumber": 7919,
+            "newNumber": 7995
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 7920,
+            "newNumber": 7996
+          }
+        ],
+        "oldStartLine": 7915,
+        "oldStartLine2": null,
+        "newStartLine": 7987,
+        "header": "@@ -7915,6 +7987,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 8214,
+            "newNumber": 8290
+          },
+          {
+            "content": "   /mdn-data/2.0.14:",
+            "type": "context",
+            "oldNumber": 8215,
+            "newNumber": 8291
+          },
+          {
+            "content": "     resolution: {integrity: sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==}",
+            "type": "context",
+            "oldNumber": 8216,
+            "newNumber": 8292
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 8217
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 8218,
+            "newNumber": 8293
+          },
+          {
+            "content": "   /mdn-data/2.0.30:",
+            "type": "context",
+            "oldNumber": 8219,
+            "newNumber": 8294
+          },
+          {
+            "content": "     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}",
+            "type": "context",
+            "oldNumber": 8220,
+            "newNumber": 8295
+          }
+        ],
+        "oldStartLine": 8214,
+        "oldStartLine2": null,
+        "newStartLine": 8290,
+        "header": "@@ -8214,7 +8290,6 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       thenify-all: 1.6.0",
+            "type": "context",
+            "oldNumber": 8406,
+            "newNumber": 8481
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 8407,
+            "newNumber": 8482
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 8408,
+            "newNumber": 8483
+          },
+          {
+            "content": "+  /nano-css/5.3.5_biqbaboplfbrettd7655fr4n2y:",
+            "type": "insert",
+            "newNumber": 8484
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-vSB9X12bbNu4ALBu7nigJgRViZ6ja3OU7CeuiV1zMIbXOdmkLahgtPmh3GBOlDxbKY0CitqlPdOReGlBLSp+yg==}",
+            "type": "insert",
+            "newNumber": 8485
+          },
+          {
+            "content": "+    peerDependencies:",
+            "type": "insert",
+            "newNumber": 8486
+          },
+          {
+            "content": "+      react: '*'",
+            "type": "insert",
+            "newNumber": 8487
+          },
+          {
+            "content": "+      react-dom: '*'",
+            "type": "insert",
+            "newNumber": 8488
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 8489
+          },
+          {
+            "content": "+      css-tree: 1.1.3",
+            "type": "insert",
+            "newNumber": 8490
+          },
+          {
+            "content": "+      csstype: 3.1.2",
+            "type": "insert",
+            "newNumber": 8491
+          },
+          {
+            "content": "+      fastest-stable-stringify: 2.0.2",
+            "type": "insert",
+            "newNumber": 8492
+          },
+          {
+            "content": "+      inline-style-prefixer: 6.0.4",
+            "type": "insert",
+            "newNumber": 8493
+          },
+          {
+            "content": "+      react: 18.2.0",
+            "type": "insert",
+            "newNumber": 8494
+          },
+          {
+            "content": "+      react-dom: 18.2.0_react@18.2.0",
+            "type": "insert",
+            "newNumber": 8495
+          },
+          {
+            "content": "+      rtl-css-js: 1.16.1",
+            "type": "insert",
+            "newNumber": 8496
+          },
+          {
+            "content": "+      sourcemap-codec: 1.4.8",
+            "type": "insert",
+            "newNumber": 8497
+          },
+          {
+            "content": "+      stacktrace-js: 2.0.2",
+            "type": "insert",
+            "newNumber": 8498
+          },
+          {
+            "content": "+      stylis: 4.2.0",
+            "type": "insert",
+            "newNumber": 8499
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 8500
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 8501
+          },
+          {
+            "content": "   /nanoid/3.3.6:",
+            "type": "context",
+            "oldNumber": 8409,
+            "newNumber": 8502
+          },
+          {
+            "content": "     resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==}",
+            "type": "context",
+            "oldNumber": 8410,
+            "newNumber": 8503
+          },
+          {
+            "content": "     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}",
+            "type": "context",
+            "oldNumber": 8411,
+            "newNumber": 8504
+          }
+        ],
+        "oldStartLine": 8406,
+        "oldStartLine2": null,
+        "newStartLine": 8481,
+        "header": "@@ -8406,6 +8481,24 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}",
+            "type": "context",
+            "oldNumber": 9928,
+            "newNumber": 10021
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 9929,
+            "newNumber": 10022
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 9930,
+            "newNumber": 10023
+          },
+          {
+            "content": "+  /react-konva/18.2.8_3ix5eityo3art7xms4yy5bn3bu:",
+            "type": "insert",
+            "newNumber": 10024
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-SQBJoL6DrnmTKGrqa5NYy6CB+eAck/2D4lXHDfu4yjRynUwYPXYjtbXTobkpifme4mY8udhbA3EBcMUkWBnfIA==}",
+            "type": "insert",
+            "newNumber": 10025
+          },
+          {
+            "content": "+    peerDependencies:",
+            "type": "insert",
+            "newNumber": 10026
+          },
+          {
+            "content": "+      konva: ^8.0.1 || ^7.2.5 || ^9.0.0",
+            "type": "insert",
+            "newNumber": 10027
+          },
+          {
+            "content": "+      react: '>=18.0.0'",
+            "type": "insert",
+            "newNumber": 10028
+          },
+          {
+            "content": "+      react-dom: '>=18.0.0'",
+            "type": "insert",
+            "newNumber": 10029
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 10030
+          },
+          {
+            "content": "+      '@types/react-reconciler': 0.28.2",
+            "type": "insert",
+            "newNumber": 10031
+          },
+          {
+            "content": "+      its-fine: 1.1.1_react@18.2.0",
+            "type": "insert",
+            "newNumber": 10032
+          },
+          {
+            "content": "+      konva: 9.0.2",
+            "type": "insert",
+            "newNumber": 10033
+          },
+          {
+            "content": "+      react: 18.2.0",
+            "type": "insert",
+            "newNumber": 10034
+          },
+          {
+            "content": "+      react-dom: 18.2.0_react@18.2.0",
+            "type": "insert",
+            "newNumber": 10035
+          },
+          {
+            "content": "+      react-reconciler: 0.29.0_react@18.2.0",
+            "type": "insert",
+            "newNumber": 10036
+          },
+          {
+            "content": "+      scheduler: 0.23.0",
+            "type": "insert",
+            "newNumber": 10037
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10038
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10039
+          },
+          {
+            "content": "+  /react-reconciler/0.29.0_react@18.2.0:",
+            "type": "insert",
+            "newNumber": 10040
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-wa0fGj7Zht1EYMRhKWwoo1H9GApxYLBuhoAuXN0TlltESAjDssB+Apf0T/DngVqaMyPypDmabL37vw/2aRM98Q==}",
+            "type": "insert",
+            "newNumber": 10041
+          },
+          {
+            "content": "+    engines: {node: '>=0.10.0'}",
+            "type": "insert",
+            "newNumber": 10042
+          },
+          {
+            "content": "+    peerDependencies:",
+            "type": "insert",
+            "newNumber": 10043
+          },
+          {
+            "content": "+      react: ^18.2.0",
+            "type": "insert",
+            "newNumber": 10044
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 10045
+          },
+          {
+            "content": "+      loose-envify: 1.4.0",
+            "type": "insert",
+            "newNumber": 10046
+          },
+          {
+            "content": "+      react: 18.2.0",
+            "type": "insert",
+            "newNumber": 10047
+          },
+          {
+            "content": "+      scheduler: 0.23.0",
+            "type": "insert",
+            "newNumber": 10048
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10049
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10050
+          },
+          {
+            "content": "   /react-refresh/0.11.0:",
+            "type": "context",
+            "oldNumber": 9931,
+            "newNumber": 10051
+          },
+          {
+            "content": "     resolution: {integrity: sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==}",
+            "type": "context",
+            "oldNumber": 9932,
+            "newNumber": 10052
+          },
+          {
+            "content": "     engines: {node: '>=0.10.0'}",
+            "type": "context",
+            "oldNumber": 9933,
+            "newNumber": 10053
+          }
+        ],
+        "oldStartLine": 9928,
+        "oldStartLine2": null,
+        "newStartLine": 10021,
+        "header": "@@ -9928,6 +10021,33 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       react: 18.2.0",
+            "type": "context",
+            "oldNumber": 10061,
+            "newNumber": 10181
+          },
+          {
+            "content": "     dev: false",
+            "type": "context",
+            "oldNumber": 10062,
+            "newNumber": 10182
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10063,
+            "newNumber": 10183
+          },
+          {
+            "content": "+  /react-universal-interface/0.6.2_react@18.2.0+tslib@2.5.0:",
+            "type": "insert",
+            "newNumber": 10184
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-dg8yXdcQmvgR13RIlZbTRQOoUrDciFVoSBZILwjE2LFISxZZ8loVJKAkuzswl5js8BHda79bIb2b84ehU8IjXw==}",
+            "type": "insert",
+            "newNumber": 10185
+          },
+          {
+            "content": "+    peerDependencies:",
+            "type": "insert",
+            "newNumber": 10186
+          },
+          {
+            "content": "+      react: '*'",
+            "type": "insert",
+            "newNumber": 10187
+          },
+          {
+            "content": "+      tslib: '*'",
+            "type": "insert",
+            "newNumber": 10188
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 10189
+          },
+          {
+            "content": "+      react: 18.2.0",
+            "type": "insert",
+            "newNumber": 10190
+          },
+          {
+            "content": "+      tslib: 2.5.0",
+            "type": "insert",
+            "newNumber": 10191
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10192
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10193
+          },
+          {
+            "content": "+  /react-use/17.4.0_biqbaboplfbrettd7655fr4n2y:",
+            "type": "insert",
+            "newNumber": 10194
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-TgbNTCA33Wl7xzIJegn1HndB4qTS9u03QUwyNycUnXaweZkE4Kq2SB+Yoxx8qbshkZGYBDvUXbXWRUmQDcZZ/Q==}",
+            "type": "insert",
+            "newNumber": 10195
+          },
+          {
+            "content": "+    peerDependencies:",
+            "type": "insert",
+            "newNumber": 10196
+          },
+          {
+            "content": "+      react: ^16.8.0  || ^17.0.0 || ^18.0.0",
+            "type": "insert",
+            "newNumber": 10197
+          },
+          {
+            "content": "+      react-dom: ^16.8.0  || ^17.0.0 || ^18.0.0",
+            "type": "insert",
+            "newNumber": 10198
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 10199
+          },
+          {
+            "content": "+      '@types/js-cookie': 2.2.7",
+            "type": "insert",
+            "newNumber": 10200
+          },
+          {
+            "content": "+      '@xobotyi/scrollbar-width': 1.9.5",
+            "type": "insert",
+            "newNumber": 10201
+          },
+          {
+            "content": "+      copy-to-clipboard: 3.3.3",
+            "type": "insert",
+            "newNumber": 10202
+          },
+          {
+            "content": "+      fast-deep-equal: 3.1.3",
+            "type": "insert",
+            "newNumber": 10203
+          },
+          {
+            "content": "+      fast-shallow-equal: 1.0.0",
+            "type": "insert",
+            "newNumber": 10204
+          },
+          {
+            "content": "+      js-cookie: 2.2.1",
+            "type": "insert",
+            "newNumber": 10205
+          },
+          {
+            "content": "+      nano-css: 5.3.5_biqbaboplfbrettd7655fr4n2y",
+            "type": "insert",
+            "newNumber": 10206
+          },
+          {
+            "content": "+      react: 18.2.0",
+            "type": "insert",
+            "newNumber": 10207
+          },
+          {
+            "content": "+      react-dom: 18.2.0_react@18.2.0",
+            "type": "insert",
+            "newNumber": 10208
+          },
+          {
+            "content": "+      react-universal-interface: 0.6.2_react@18.2.0+tslib@2.5.0",
+            "type": "insert",
+            "newNumber": 10209
+          },
+          {
+            "content": "+      resize-observer-polyfill: 1.5.1",
+            "type": "insert",
+            "newNumber": 10210
+          },
+          {
+            "content": "+      screenfull: 5.2.0",
+            "type": "insert",
+            "newNumber": 10211
+          },
+          {
+            "content": "+      set-harmonic-interval: 1.0.1",
+            "type": "insert",
+            "newNumber": 10212
+          },
+          {
+            "content": "+      throttle-debounce: 3.0.1",
+            "type": "insert",
+            "newNumber": 10213
+          },
+          {
+            "content": "+      ts-easing: 0.2.0",
+            "type": "insert",
+            "newNumber": 10214
+          },
+          {
+            "content": "+      tslib: 2.5.0",
+            "type": "insert",
+            "newNumber": 10215
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10216
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10217
+          },
+          {
+            "content": "   /react/18.2.0:",
+            "type": "context",
+            "oldNumber": 10064,
+            "newNumber": 10218
+          },
+          {
+            "content": "     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}",
+            "type": "context",
+            "oldNumber": 10065,
+            "newNumber": 10219
+          },
+          {
+            "content": "     engines: {node: '>=0.10.0'}",
+            "type": "context",
+            "oldNumber": 10066,
+            "newNumber": 10220
+          }
+        ],
+        "oldStartLine": 10061,
+        "oldStartLine2": null,
+        "newStartLine": 10181,
+        "header": "@@ -10061,6 +10181,40 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10157,
+            "newNumber": 10311
+          },
+          {
+            "content": "   /regenerator-runtime/0.13.11:",
+            "type": "context",
+            "oldNumber": 10158,
+            "newNumber": 10312
+          },
+          {
+            "content": "     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}",
+            "type": "context",
+            "oldNumber": 10159,
+            "newNumber": 10313
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 10160
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10161,
+            "newNumber": 10314
+          },
+          {
+            "content": "   /regenerator-transform/0.15.1:",
+            "type": "context",
+            "oldNumber": 10162,
+            "newNumber": 10315
+          },
+          {
+            "content": "     resolution: {integrity: sha512-knzmNAcuyxV+gQCufkYcvOqX/qIIfHLv0u5x79kRxuGojfYVky1f15TzZEu2Avte8QGepvUNTnLskf8E6X6Vyg==}",
+            "type": "context",
+            "oldNumber": 10163,
+            "newNumber": 10316
+          }
+        ],
+        "oldStartLine": 10157,
+        "oldStartLine2": null,
+        "newStartLine": 10311,
+        "header": "@@ -10157,7 +10311,6 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     resolution: {integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==}",
+            "type": "context",
+            "oldNumber": 10236,
+            "newNumber": 10389
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 10237,
+            "newNumber": 10390
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10238,
+            "newNumber": 10391
+          },
+          {
+            "content": "+  /resize-observer-polyfill/1.5.1:",
+            "type": "insert",
+            "newNumber": 10392
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==}",
+            "type": "insert",
+            "newNumber": 10393
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10394
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10395
+          },
+          {
+            "content": "   /resolve-cwd/3.0.0:",
+            "type": "context",
+            "oldNumber": 10239,
+            "newNumber": 10396
+          },
+          {
+            "content": "     resolution: {integrity: sha512-OrZaX2Mb+rJCpH/6CpSqt9xFVpN++x01XnN2ie9g6P5/3xelLAkXWVADpdz1IHD/KFfEXyE6V0U01OQ3UO2rEg==}",
+            "type": "context",
+            "oldNumber": 10240,
+            "newNumber": 10397
+          },
+          {
+            "content": "     engines: {node: '>=8'}",
+            "type": "context",
+            "oldNumber": 10241,
+            "newNumber": 10398
+          }
+        ],
+        "oldStartLine": 10236,
+        "oldStartLine2": null,
+        "newStartLine": 10389,
+        "header": "@@ -10236,6 +10389,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       fsevents: 2.3.2",
+            "type": "context",
+            "oldNumber": 10352,
+            "newNumber": 10509
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 10353,
+            "newNumber": 10510
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10354,
+            "newNumber": 10511
+          },
+          {
+            "content": "+  /rtl-css-js/1.16.1:",
+            "type": "insert",
+            "newNumber": 10512
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-lRQgou1mu19e+Ya0LsTvKrVJ5TYUbqCVPAiImX3UfLTenarvPUl1QFdvu5Z3PYmHT9RCcwIfbjRQBntExyj3Zg==}",
+            "type": "insert",
+            "newNumber": 10513
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 10514
+          },
+          {
+            "content": "+      '@babel/runtime': 7.21.0",
+            "type": "insert",
+            "newNumber": 10515
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10516
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10517
+          },
+          {
+            "content": "   /run-parallel/1.2.0:",
+            "type": "context",
+            "oldNumber": 10355,
+            "newNumber": 10518
+          },
+          {
+            "content": "     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}",
+            "type": "context",
+            "oldNumber": 10356,
+            "newNumber": 10519
+          },
+          {
+            "content": "     dependencies:",
+            "type": "context",
+            "oldNumber": 10357,
+            "newNumber": 10520
+          }
+        ],
+        "oldStartLine": 10352,
+        "oldStartLine2": null,
+        "newStartLine": 10509,
+        "header": "@@ -10352,6 +10509,12 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       ajv-keywords: 5.1.0_ajv@8.12.0",
+            "type": "context",
+            "oldNumber": 10481,
+            "newNumber": 10644
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 10482,
+            "newNumber": 10645
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10483,
+            "newNumber": 10646
+          },
+          {
+            "content": "+  /screenfull/5.2.0:",
+            "type": "insert",
+            "newNumber": 10647
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-9BakfsO2aUQN2K9Fdbj87RJIEZ82Q9IGim7FqM5OsebfoFC6ZHXgDq/KvniuLTPdeM8wY2o6Dj3WQ7KeQCj3cA==}",
+            "type": "insert",
+            "newNumber": 10648
+          },
+          {
+            "content": "+    engines: {node: '>=0.10.0'}",
+            "type": "insert",
+            "newNumber": 10649
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10650
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10651
+          },
+          {
+            "content": "   /select-hose/2.0.0:",
+            "type": "context",
+            "oldNumber": 10484,
+            "newNumber": 10652
+          },
+          {
+            "content": "     resolution: {integrity: sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg==}",
+            "type": "context",
+            "oldNumber": 10485,
+            "newNumber": 10653
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 10486,
+            "newNumber": 10654
+          }
+        ],
+        "oldStartLine": 10481,
+        "oldStartLine2": null,
+        "newStartLine": 10644,
+        "header": "@@ -10481,6 +10644,11 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       - supports-color",
+            "type": "context",
+            "oldNumber": 10570,
+            "newNumber": 10738
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 10571,
+            "newNumber": 10739
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10572,
+            "newNumber": 10740
+          },
+          {
+            "content": "+  /set-harmonic-interval/1.0.1:",
+            "type": "insert",
+            "newNumber": 10741
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-AhICkFV84tBP1aWqPwLZqFvAwqEoVA9kxNMniGEUvzOlm4vLmOFLiTT3UZ6bziJTy4bOVpzWGTfSCbmaayGx8g==}",
+            "type": "insert",
+            "newNumber": 10742
+          },
+          {
+            "content": "+    engines: {node: '>=6.9'}",
+            "type": "insert",
+            "newNumber": 10743
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10744
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10745
+          },
+          {
+            "content": "   /setprototypeof/1.1.0:",
+            "type": "context",
+            "oldNumber": 10573,
+            "newNumber": 10746
+          },
+          {
+            "content": "     resolution: {integrity: sha512-BvE/TwpZX4FXExxOxZyRGQQv651MSwmWKZGqvmPcRIjDqWub67kTKuIMx43cZZrS/cBBzwBcNDWoFxt2XEFIpQ==}",
+            "type": "context",
+            "oldNumber": 10574,
+            "newNumber": 10747
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 10575,
+            "newNumber": 10748
+          }
+        ],
+        "oldStartLine": 10570,
+        "oldStartLine2": null,
+        "newStartLine": 10738,
+        "header": "@@ -10570,6 +10738,11 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       source-map: 0.6.1",
+            "type": "context",
+            "oldNumber": 10710,
+            "newNumber": 10883
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 10711,
+            "newNumber": 10884
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10712,
+            "newNumber": 10885
+          },
+          {
+            "content": "+  /source-map/0.5.6:",
+            "type": "insert",
+            "newNumber": 10886
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-MjZkVp0NHr5+TPihLcadqnlVoGIoWo4IBHptutGh9wI3ttUYvCG26HkSuDi+K6lsZ25syXJXcctwgyVCt//xqA==}",
+            "type": "insert",
+            "newNumber": 10887
+          },
+          {
+            "content": "+    engines: {node: '>=0.10.0'}",
+            "type": "insert",
+            "newNumber": 10888
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10889
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10890
+          },
+          {
+            "content": "   /source-map/0.6.1:",
+            "type": "context",
+            "oldNumber": 10713,
+            "newNumber": 10891
+          },
+          {
+            "content": "     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}",
+            "type": "context",
+            "oldNumber": 10714,
+            "newNumber": 10892
+          },
+          {
+            "content": "     engines: {node: '>=0.10.0'}",
+            "type": "context",
+            "oldNumber": 10715,
+            "newNumber": 10893
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 10716
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10717,
+            "newNumber": 10894
+          },
+          {
+            "content": "   /source-map/0.7.4:",
+            "type": "context",
+            "oldNumber": 10718,
+            "newNumber": 10895
+          },
+          {
+            "content": "     resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}",
+            "type": "context",
+            "oldNumber": 10719,
+            "newNumber": 10896
+          }
+        ],
+        "oldStartLine": 10710,
+        "oldStartLine2": null,
+        "newStartLine": 10883,
+        "header": "@@ -10710,10 +10883,14 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "   /sourcemap-codec/1.4.8:",
+            "type": "context",
+            "oldNumber": 10730,
+            "newNumber": 10907
+          },
+          {
+            "content": "     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}",
+            "type": "context",
+            "oldNumber": 10731,
+            "newNumber": 10908
+          },
+          {
+            "content": "     deprecated: Please use @jridgewell/sourcemap-codec instead",
+            "type": "context",
+            "oldNumber": 10732,
+            "newNumber": 10909
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 10733
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10734,
+            "newNumber": 10910
+          },
+          {
+            "content": "   /spdx-correct/3.2.0:",
+            "type": "context",
+            "oldNumber": 10735,
+            "newNumber": 10911
+          },
+          {
+            "content": "     resolution: {integrity: sha512-kN9dJbvnySHULIluDHy32WHRUu3Og7B9sbY7tsFLctQkIqnMh3hErYgdMjTYuqmcXX+lK5T1lnUt3G7zNswmZA==}",
+            "type": "context",
+            "oldNumber": 10736,
+            "newNumber": 10912
+          }
+        ],
+        "oldStartLine": 10730,
+        "oldStartLine2": null,
+        "newStartLine": 10907,
+        "header": "@@ -10730,7 +10907,6 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     deprecated: 'Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility'",
+            "type": "context",
+            "oldNumber": 10795,
+            "newNumber": 10971
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 10796,
+            "newNumber": 10972
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10797,
+            "newNumber": 10973
+          },
+          {
+            "content": "+  /stack-generator/2.0.10:",
+            "type": "insert",
+            "newNumber": 10974
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-mwnua/hkqM6pF4k8SnmZ2zfETsRUpWXREfA/goT8SLCV4iOFa4bzOX2nDipWAZFPTjLvQB82f5yaodMVhK0yJQ==}",
+            "type": "insert",
+            "newNumber": 10975
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 10976
+          },
+          {
+            "content": "+      stackframe: 1.3.4",
+            "type": "insert",
+            "newNumber": 10977
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10978
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10979
+          },
+          {
+            "content": "   /stack-utils/2.0.6:",
+            "type": "context",
+            "oldNumber": 10798,
+            "newNumber": 10980
+          },
+          {
+            "content": "     resolution: {integrity: sha512-XlkWvfIm6RmsWtNJx+uqtKLS8eqFbxUg0ZzLXqY0caEy9l7hruX8IpiDnjsLavoBgqCCR71TqWO8MaXYheJ3RQ==}",
+            "type": "context",
+            "oldNumber": 10799,
+            "newNumber": 10981
+          },
+          {
+            "content": "     engines: {node: '>=10'}",
+            "type": "context",
+            "oldNumber": 10800,
+            "newNumber": 10982
+          }
+        ],
+        "oldStartLine": 10795,
+        "oldStartLine2": null,
+        "newStartLine": 10971,
+        "header": "@@ -10795,6 +10971,12 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10804,
+            "newNumber": 10986
+          },
+          {
+            "content": "   /stackframe/1.3.4:",
+            "type": "context",
+            "oldNumber": 10805,
+            "newNumber": 10987
+          },
+          {
+            "content": "     resolution: {integrity: sha512-oeVtt7eWQS+Na6F//S4kJ2K2VbRlS9D43mAlMyVpVWovy9o+jfgH8O9agzANzaiLjclA0oYzUXEM4PurhSUChw==}",
+            "type": "context",
+            "oldNumber": 10806,
+            "newNumber": 10988
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 10807
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10989
+          },
+          {
+            "content": "+  /stacktrace-gps/3.1.2:",
+            "type": "insert",
+            "newNumber": 10990
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-GcUgbO4Jsqqg6RxfyTHFiPxdPqF+3LFmQhm7MgCuYQOYuWyqxo5pwRPz5d/u6/WYJdEnWfK4r+jGbyD8TSggXQ==}",
+            "type": "insert",
+            "newNumber": 10991
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 10992
+          },
+          {
+            "content": "+      source-map: 0.5.6",
+            "type": "insert",
+            "newNumber": 10993
+          },
+          {
+            "content": "+      stackframe: 1.3.4",
+            "type": "insert",
+            "newNumber": 10994
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 10995
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10996
+          },
+          {
+            "content": "+  /stacktrace-js/2.0.2:",
+            "type": "insert",
+            "newNumber": 10997
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-Je5vBeY4S1r/RnLydLl0TBTi3F2qdfWmYsGvtfZgEI+SCprPppaIhQf5nGcal4gI4cGpCV/duLcAzT1np6sQqg==}",
+            "type": "insert",
+            "newNumber": 10998
+          },
+          {
+            "content": "+    dependencies:",
+            "type": "insert",
+            "newNumber": 10999
+          },
+          {
+            "content": "+      error-stack-parser: 2.1.4",
+            "type": "insert",
+            "newNumber": 11000
+          },
+          {
+            "content": "+      stack-generator: 2.0.10",
+            "type": "insert",
+            "newNumber": 11001
+          },
+          {
+            "content": "+      stacktrace-gps: 3.1.2",
+            "type": "insert",
+            "newNumber": 11002
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 11003
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 10808,
+            "newNumber": 11004
+          },
+          {
+            "content": "   /statuses/1.5.0:",
+            "type": "context",
+            "oldNumber": 10809,
+            "newNumber": 11005
+          },
+          {
+            "content": "     resolution: {integrity: sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==}",
+            "type": "context",
+            "oldNumber": 10810,
+            "newNumber": 11006
+          }
+        ],
+        "oldStartLine": 10804,
+        "oldStartLine2": null,
+        "newStartLine": 10986,
+        "header": "@@ -10804,7 +10986,21 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       postcss-selector-parser: 6.0.11",
+            "type": "context",
+            "oldNumber": 11005,
+            "newNumber": 11201
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 11006,
+            "newNumber": 11202
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 11007,
+            "newNumber": 11203
+          },
+          {
+            "content": "+  /stylis/4.2.0:",
+            "type": "insert",
+            "newNumber": 11204
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-Orov6g6BB1sDfYgzWfTHDOxamtX1bE/zo104Dh9e6fqJ3PooipYyfJ0pUmrZO2wAvO8YbEyeFrkV91XTsGMSrw==}",
+            "type": "insert",
+            "newNumber": 11205
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 11206
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 11207
+          },
+          {
+            "content": "   /sucrase/3.32.0:",
+            "type": "context",
+            "oldNumber": 11008,
+            "newNumber": 11208
+          },
+          {
+            "content": "     resolution: {integrity: sha512-ydQOU34rpSyj2TGyz4D2p8rbktIOZ8QY9s+DGLvFU1i5pWJE8vkpruCjGCMHsdXwnD7JDcS+noSwM/a7zyNFDQ==}",
+            "type": "context",
+            "oldNumber": 11009,
+            "newNumber": 11209
+          },
+          {
+            "content": "     engines: {node: '>=8'}",
+            "type": "context",
+            "oldNumber": 11010,
+            "newNumber": 11210
+          }
+        ],
+        "oldStartLine": 11005,
+        "oldStartLine2": null,
+        "newStartLine": 11201,
+        "header": "@@ -11005,6 +11201,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     resolution: {integrity: sha512-WKexMoJj3vEuK0yFEapj8y64V0A6xcuPuK9Gt1d0R+dzCSJc0lHqQytAbSB4cDAK0dWh4T0E2ETkoLE2WZ41OQ==}",
+            "type": "context",
+            "oldNumber": 11232,
+            "newNumber": 11432
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 11233,
+            "newNumber": 11433
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 11234,
+            "newNumber": 11434
+          },
+          {
+            "content": "+  /throttle-debounce/3.0.1:",
+            "type": "insert",
+            "newNumber": 11435
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-dTEWWNu6JmeVXY0ZYoPuH5cRIwc0MeGbJwah9KUNYSJwommQpCzTySTpEe8Gs1J23aeWEuAobe4Ag7EHVt/LOg==}",
+            "type": "insert",
+            "newNumber": 11436
+          },
+          {
+            "content": "+    engines: {node: '>=10'}",
+            "type": "insert",
+            "newNumber": 11437
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 11438
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 11439
+          },
+          {
+            "content": "   /through/2.3.8:",
+            "type": "context",
+            "oldNumber": 11235,
+            "newNumber": 11440
+          },
+          {
+            "content": "     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}",
+            "type": "context",
+            "oldNumber": 11236,
+            "newNumber": 11441
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 11237,
+            "newNumber": 11442
+          }
+        ],
+        "oldStartLine": 11232,
+        "oldStartLine2": null,
+        "newStartLine": 11432,
+        "header": "@@ -11232,6 +11432,11 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "       is-number: 7.0.0",
+            "type": "context",
+            "oldNumber": 11262,
+            "newNumber": 11467
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 11263,
+            "newNumber": 11468
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 11264,
+            "newNumber": 11469
+          },
+          {
+            "content": "+  /toggle-selection/1.0.6:",
+            "type": "insert",
+            "newNumber": 11470
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-BiZS+C1OS8g/q2RRbJmy59xpyghNBqrr6k5L/uKBGRsTfxmu3ffiRnd8mlGPUVayg8pvfi5urfnu8TU7DVOkLQ==}",
+            "type": "insert",
+            "newNumber": 11471
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 11472
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 11473
+          },
+          {
+            "content": "   /toidentifier/1.0.1:",
+            "type": "context",
+            "oldNumber": 11265,
+            "newNumber": 11474
+          },
+          {
+            "content": "     resolution: {integrity: sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==}",
+            "type": "context",
+            "oldNumber": 11266,
+            "newNumber": 11475
+          },
+          {
+            "content": "     engines: {node: '>=0.6'}",
+            "type": "context",
+            "oldNumber": 11267,
+            "newNumber": 11476
+          }
+        ],
+        "oldStartLine": 11262,
+        "oldStartLine2": null,
+        "newStartLine": 11467,
+        "header": "@@ -11262,6 +11467,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": "     resolution: {integrity: sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==}",
+            "type": "context",
+            "oldNumber": 11304,
+            "newNumber": 11513
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 11305,
+            "newNumber": 11514
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 11306,
+            "newNumber": 11515
+          },
+          {
+            "content": "+  /ts-easing/0.2.0:",
+            "type": "insert",
+            "newNumber": 11516
+          },
+          {
+            "content": "+    resolution: {integrity: sha512-Z86EW+fFFh/IFB1fqQ3/+7Zpf9t2ebOAxNI/V6Wo7r5gqiqtxmgTlQ1qbqQcjLKYeSHPTsEmvlJUDg/EuL0uHQ==}",
+            "type": "insert",
+            "newNumber": 11517
+          },
+          {
+            "content": "+    dev: false",
+            "type": "insert",
+            "newNumber": 11518
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 11519
+          },
+          {
+            "content": "   /ts-interface-checker/0.1.13:",
+            "type": "context",
+            "oldNumber": 11307,
+            "newNumber": 11520
+          },
+          {
+            "content": "     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}",
+            "type": "context",
+            "oldNumber": 11308,
+            "newNumber": 11521
+          },
+          {
+            "content": "     dev: true",
+            "type": "context",
+            "oldNumber": 11309,
+            "newNumber": 11522
+          }
+        ],
+        "oldStartLine": 11304,
+        "oldStartLine2": null,
+        "newStartLine": 11513,
+        "header": "@@ -11304,6 +11513,10 @@ packages:"
+      },
+      {
+        "lines": [
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 11372,
+            "newNumber": 11585
+          },
+          {
+            "content": "   /tslib/2.5.0:",
+            "type": "context",
+            "oldNumber": 11373,
+            "newNumber": 11586
+          },
+          {
+            "content": "     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}",
+            "type": "context",
+            "oldNumber": 11374,
+            "newNumber": 11587
+          },
+          {
+            "content": "-    dev: true",
+            "type": "delete",
+            "oldNumber": 11375
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 11376,
+            "newNumber": 11588
+          },
+          {
+            "content": "   /tsutils/3.21.0_typescript@4.9.5:",
+            "type": "context",
+            "oldNumber": 11377,
+            "newNumber": 11589
+          },
+          {
+            "content": "     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}",
+            "type": "context",
+            "oldNumber": 11378,
+            "newNumber": 11590
+          }
+        ],
+        "oldStartLine": 11372,
+        "oldStartLine2": null,
+        "newStartLine": 11585,
+        "header": "@@ -11372,7 +11585,6 @@ packages:"
+      }
+    ],
+    "deletedLines": 14,
+    "addedLines": 226,
+    "isGitDiff": true,
+    "checksumBefore": "c375f7a",
+    "checksumAfter": "ca0a685",
+    "mode": "100644",
+    "oldName": "pnpm-lock.yaml",
+    "language": "yaml",
+    "newName": "pnpm-lock.yaml",
+    "isCombined": false
+  },
+  {
+    "blocks": [
+      {
+        "lines": [
+          {
+            "content": "+html, body {",
+            "type": "insert",
+            "newNumber": 1
+          },
+          {
+            "content": "+  height: 100%;",
+            "type": "insert",
+            "newNumber": 2
+          },
+          {
+            "content": "+  margin: 0;",
+            "type": "insert",
+            "newNumber": 3
+          },
+          {
+            "content": "+}",
+            "type": "insert",
+            "newNumber": 4
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 5
+          },
+          {
+            "content": "+#root {",
+            "type": "insert",
+            "newNumber": 6
+          },
+          {
+            "content": "+  padding: 8px;",
+            "type": "insert",
+            "newNumber": 7
+          },
+          {
+            "content": "+}",
+            "type": "insert",
+            "newNumber": 8
+          }
+        ],
+        "oldStartLine": 0,
+        "oldStartLine2": null,
+        "newStartLine": 1,
+        "header": "@@ -0,0 +1,8 @@"
+      }
+    ],
+    "deletedLines": 0,
+    "addedLines": 8,
+    "isGitDiff": true,
+    "newFileMode": "100644",
+    "isNew": true,
+    "checksumBefore": "0000000",
+    "checksumAfter": "fb1a29b",
+    "oldName": "/dev/null",
+    "language": "css",
+    "newName": "src/app.css",
+    "isCombined": false
+  },
+  {
+    "blocks": [
+      {
+        "lines": [
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 5,
+            "newNumber": 5
+          },
+          {
+            "content": " import ReactDOM from 'react-dom/client'",
+            "type": "context",
+            "oldNumber": 6,
+            "newNumber": 6
+          },
+          {
+            "content": " import App from './App'",
+            "type": "context",
+            "oldNumber": 7,
+            "newNumber": 7
+          },
+          {
+            "content": "+import './app.css'",
+            "type": "insert",
+            "newNumber": 8
+          },
+          {
+            "content": " import './styles/uno.css'",
+            "type": "context",
+            "oldNumber": 8,
+            "newNumber": 9
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10
+          },
+          {
+            "content": " const root = ReactDOM.createRoot(",
+            "type": "context",
+            "oldNumber": 9,
+            "newNumber": 11
+          },
+          {
+            "content": "   document.getElementById('root') as HTMLElement,",
+            "type": "context",
+            "oldNumber": 10,
+            "newNumber": 12
+          },
+          {
+            "content": " )",
+            "type": "context",
+            "oldNumber": 11,
+            "newNumber": 13
+          }
+        ],
+        "oldStartLine": 5,
+        "oldStartLine2": null,
+        "newStartLine": 5,
+        "header": "@@ -5,7 +5,9 @@"
+      }
+    ],
+    "deletedLines": 0,
+    "addedLines": 2,
+    "isGitDiff": true,
+    "checksumBefore": "6d1e5d8",
+    "checksumAfter": "7317259",
+    "mode": "100644",
+    "oldName": "src/index.tsx",
+    "language": "tsx",
+    "newName": "src/index.tsx",
+    "isCombined": false
+  },
+  {
+    "blocks": [
+      {
+        "lines": [
+          {
+            "content": " export type PropsWithClassName<P = unknown> = P & { className?: string }",
+            "type": "context",
+            "oldNumber": 10,
+            "newNumber": 10
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 11,
+            "newNumber": 11
+          },
+          {
+            "content": " export type PropsWithStyleAndClassName<P = unknown> = P & PropsWithStyle & PropsWithClassName",
+            "type": "context",
+            "oldNumber": 12,
+            "newNumber": 12
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 13
+          },
+          {
+            "content": "+export type Tuple<TItem, TLength extends number> = [TItem, ...TItem[]] & { length: TLength }",
+            "type": "insert",
+            "newNumber": 14
+          }
+        ],
+        "oldStartLine": 10,
+        "oldStartLine2": null,
+        "newStartLine": 10,
+        "header": "@@ -10,3 +10,5 @@ export type PropsWithStyle<P = unknown> = P & { style?: CSSProperties }"
+      }
+    ],
+    "deletedLines": 0,
+    "addedLines": 2,
+    "isGitDiff": true,
+    "checksumBefore": "b245311",
+    "checksumAfter": "852d72e",
+    "mode": "100644",
+    "oldName": "src/model/type.ts",
+    "language": "ts",
+    "newName": "src/model/type.ts",
+    "isCombined": false
+  },
+  {
+    "blocks": [
+      {
+        "lines": [
+          {
+            "content": "+/**",
+            "type": "insert",
+            "newNumber": 1
+          },
+          {
+            "content": "+ * @description 图形绘制",
+            "type": "insert",
+            "newNumber": 2
+          },
+          {
+            "content": "+ * @author clyan",
+            "type": "insert",
+            "newNumber": 3
+          },
+          {
+            "content": "+ */",
+            "type": "insert",
+            "newNumber": 4
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 5
+          },
+          {
+            "content": "+import { useEffect, useRef, useState } from 'react'",
+            "type": "insert",
+            "newNumber": 6
+          },
+          {
+            "content": "+import { createPortal } from 'react-dom'",
+            "type": "insert",
+            "newNumber": 7
+          },
+          {
+            "content": "+import { Bezier } from 'bezier-js'",
+            "type": "insert",
+            "newNumber": 8
+          },
+          {
+            "content": "+import { CurveDrawer } from './utils/curve-drawer'",
+            "type": "insert",
+            "newNumber": 9
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 10
+          },
+          {
+            "content": "+export function KonvaPage() {",
+            "type": "insert",
+            "newNumber": 11
+          },
+          {
+            "content": "+  const ref = useRef<HTMLCanvasElement | null>(null)",
+            "type": "insert",
+            "newNumber": 12
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 13
+          },
+          {
+            "content": "+  const [curveDrawer, setCurveDrawer] = useState<CurveDrawer>()",
+            "type": "insert",
+            "newNumber": 14
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 15
+          },
+          {
+            "content": "+  useEffect(() => {",
+            "type": "insert",
+            "newNumber": 16
+          },
+          {
+            "content": "+    if (!ref.current) {",
+            "type": "insert",
+            "newNumber": 17
+          },
+          {
+            "content": "+      console.warn('canvas element ins\\'t exit')",
+            "type": "insert",
+            "newNumber": 18
+          },
+          {
+            "content": "+      return",
+            "type": "insert",
+            "newNumber": 19
+          },
+          {
+            "content": "+    }",
+            "type": "insert",
+            "newNumber": 20
+          },
+          {
+            "content": "+    const curveDrawer = new CurveDrawer({ canvasEle: ref.current })",
+            "type": "insert",
+            "newNumber": 21
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 22
+          },
+          {
+            "content": "+    setCurveDrawer(curveDrawer)",
+            "type": "insert",
+            "newNumber": 23
+          },
+          {
+            "content": "+  }, [])",
+            "type": "insert",
+            "newNumber": 24
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 25
+          },
+          {
+            "content": "+  useEffect(() => {",
+            "type": "insert",
+            "newNumber": 26
+          },
+          {
+            "content": "+    if (!curveDrawer) return",
+            "type": "insert",
+            "newNumber": 27
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 28
+          },
+          {
+            "content": "+    const curve = new Bezier(150, 40, 80, 30, 105, 150)",
+            "type": "insert",
+            "newNumber": 29
+          },
+          {
+            "content": "+    curveDrawer.drawSkeleton(curve)",
+            "type": "insert",
+            "newNumber": 30
+          },
+          {
+            "content": "+    curveDrawer.drawCurve(curve)",
+            "type": "insert",
+            "newNumber": 31
+          },
+          {
+            "content": "+    curveDrawer.setColor('red')",
+            "type": "insert",
+            "newNumber": 32
+          },
+          {
+            "content": "+    curve.outlineshapes(25, 25).forEach((s) => {",
+            "type": "insert",
+            "newNumber": 33
+          },
+          {
+            "content": "+      curveDrawer.setRandomFill(0.2)",
+            "type": "insert",
+            "newNumber": 34
+          },
+          {
+            "content": "+      curveDrawer.drawShape(s)",
+            "type": "insert",
+            "newNumber": 35
+          },
+          {
+            "content": "+    })",
+            "type": "insert",
+            "newNumber": 36
+          },
+          {
+            "content": "+  }, [curveDrawer])",
+            "type": "insert",
+            "newNumber": 37
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 38
+          },
+          {
+            "content": "+  return (",
+            "type": "insert",
+            "newNumber": 39
+          },
+          {
+            "content": "+    <>",
+            "type": "insert",
+            "newNumber": 40
+          },
+          {
+            "content": "+      {createPortal(",
+            "type": "insert",
+            "newNumber": 41
+          },
+          {
+            "content": "+        <canvas className=\"absolute top-0 h-screen w-screen\" ref={ref} />,",
+            "type": "insert",
+            "newNumber": 42
+          },
+          {
+            "content": "+        document.body,",
+            "type": "insert",
+            "newNumber": 43
+          },
+          {
+            "content": "+      )}",
+            "type": "insert",
+            "newNumber": 44
+          },
+          {
+            "content": "+    </>",
+            "type": "insert",
+            "newNumber": 45
+          },
+          {
+            "content": "+  )",
+            "type": "insert",
+            "newNumber": 46
+          },
+          {
+            "content": "+}",
+            "type": "insert",
+            "newNumber": 47
+          }
+        ],
+        "oldStartLine": 0,
+        "oldStartLine2": null,
+        "newStartLine": 1,
+        "header": "@@ -0,0 +1,47 @@"
+      }
+    ],
+    "deletedLines": 0,
+    "addedLines": 47,
+    "isGitDiff": true,
+    "newFileMode": "100644",
+    "isNew": true,
+    "checksumBefore": "0000000",
+    "checksumAfter": "6610f1d",
+    "oldName": "/dev/null",
+    "language": "tsx",
+    "newName": "src/pages/konva-page/index.tsx",
+    "isCombined": false
+  },
+  {
+    "blocks": [
+      {
+        "lines": [
+          {
+            "content": "+/**",
+            "type": "insert",
+            "newNumber": 1
+          },
+          {
+            "content": "+ * @description 贝塞尔曲线运动",
+            "type": "insert",
+            "newNumber": 2
+          },
+          {
+            "content": "+ * @author clyan",
+            "type": "insert",
+            "newNumber": 3
+          },
+          {
+            "content": "+ */",
+            "type": "insert",
+            "newNumber": 4
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 5
+          },
+          {
+            "content": "+import type { Bezier, Shape } from 'bezier-js'",
+            "type": "insert",
+            "newNumber": 6
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 7
+          },
+          {
+            "content": "+import type { Tuple } from '@/model/type'",
+            "type": "insert",
+            "newNumber": 8
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 9
+          },
+          {
+            "content": "+export interface Coordinate {",
+            "type": "insert",
+            "newNumber": 10
+          },
+          {
+            "content": "+  /** x */",
+            "type": "insert",
+            "newNumber": 11
+          },
+          {
+            "content": "+  x: number",
+            "type": "insert",
+            "newNumber": 12
+          },
+          {
+            "content": "+  /** y */",
+            "type": "insert",
+            "newNumber": 13
+          },
+          {
+            "content": "+  y: number",
+            "type": "insert",
+            "newNumber": 14
+          },
+          {
+            "content": "+}",
+            "type": "insert",
+            "newNumber": 15
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 16
+          },
+          {
+            "content": "+interface BezierCurveProps {",
+            "type": "insert",
+            "newNumber": 17
+          },
+          {
+            "content": "+  /** canvas节点 */",
+            "type": "insert",
+            "newNumber": 18
+          },
+          {
+            "content": "+  canvasEle: HTMLCanvasElement",
+            "type": "insert",
+            "newNumber": 19
+          },
+          {
+            "content": "+}",
+            "type": "insert",
+            "newNumber": 20
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 21
+          },
+          {
+            "content": "+export class CurveDrawer {",
+            "type": "insert",
+            "newNumber": 22
+          },
+          {
+            "content": "+  /** canvas节点 */",
+            "type": "insert",
+            "newNumber": 23
+          },
+          {
+            "content": "+  canvasEle: HTMLCanvasElement",
+            "type": "insert",
+            "newNumber": 24
+          },
+          {
+            "content": "+  ctx: CanvasRenderingContext2D | null",
+            "type": "insert",
+            "newNumber": 25
+          },
+          {
+            "content": "+  randomIndex = 0",
+            "type": "insert",
+            "newNumber": 26
+          },
+          {
+            "content": "+  randomColors: string[] = []",
+            "type": "insert",
+            "newNumber": 27
+          },
+          {
+            "content": "+  constructor({ canvasEle }: BezierCurveProps) {",
+            "type": "insert",
+            "newNumber": 28
+          },
+          {
+            "content": "+    this.canvasEle = canvasEle",
+            "type": "insert",
+            "newNumber": 29
+          },
+          {
+            "content": "+    this.ctx = canvasEle.getContext('2d')",
+            "type": "insert",
+            "newNumber": 30
+          },
+          {
+            "content": "+    this.adaptDPR()",
+            "type": "insert",
+            "newNumber": 31
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 32
+          },
+          {
+            "content": "+    for (let i = 0, j; i < 360; i++) {",
+            "type": "insert",
+            "newNumber": 33
+          },
+          {
+            "content": "+      j = (i * 47) % 360",
+            "type": "insert",
+            "newNumber": 34
+          },
+          {
+            "content": "+      this.randomColors.push(`hsl(${j},50%,50%)`)",
+            "type": "insert",
+            "newNumber": 35
+          },
+          {
+            "content": "+    }",
+            "type": "insert",
+            "newNumber": 36
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 37
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 38
+          },
+          {
+            "content": "+  adaptDPR() { // 在初始化 canvas 的时候就要调用该方法",
+            "type": "insert",
+            "newNumber": 39
+          },
+          {
+            "content": "+    const dpr = window.devicePixelRatio",
+            "type": "insert",
+            "newNumber": 40
+          },
+          {
+            "content": "+    const { height, width } = this.canvasEle.getBoundingClientRect()",
+            "type": "insert",
+            "newNumber": 41
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 42
+          },
+          {
+            "content": "+    // 重新设置 canvas 自身宽高大小和 css 大小。放大 canvas；css 保持不变，因为我们需要那么多的点",
+            "type": "insert",
+            "newNumber": 43
+          },
+          {
+            "content": "+    this.canvasEle.width = Math.round(width * dpr)",
+            "type": "insert",
+            "newNumber": 44
+          },
+          {
+            "content": "+    this.canvasEle.height = Math.round(height * dpr)",
+            "type": "insert",
+            "newNumber": 45
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 46
+          },
+          {
+            "content": "+    this.canvasEle.style.width = `${width}px`",
+            "type": "insert",
+            "newNumber": 47
+          },
+          {
+            "content": "+    this.canvasEle.style.height = `${height}px`",
+            "type": "insert",
+            "newNumber": 48
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 49
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 50
+          },
+          {
+            "content": "+  getCanvas() {",
+            "type": "insert",
+            "newNumber": 51
+          },
+          {
+            "content": "+    return this.canvasEle",
+            "type": "insert",
+            "newNumber": 52
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 53
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 54
+          },
+          {
+            "content": "+  setColor(c: string) {",
+            "type": "insert",
+            "newNumber": 55
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 56
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 57
+          },
+          {
+            "content": "+    ctx.strokeStyle = c",
+            "type": "insert",
+            "newNumber": 58
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 59
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 60
+          },
+          {
+            "content": "+  noColor() {",
+            "type": "insert",
+            "newNumber": 61
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 62
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 63
+          },
+          {
+            "content": "+    ctx.strokeStyle = 'transparent'",
+            "type": "insert",
+            "newNumber": 64
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 65
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 66
+          },
+          {
+            "content": "+  setRandomColor() {",
+            "type": "insert",
+            "newNumber": 67
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 68
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 69
+          },
+          {
+            "content": "+    this.randomIndex = (this.randomIndex + 1) % this.randomColors.length",
+            "type": "insert",
+            "newNumber": 70
+          },
+          {
+            "content": "+    const c = this.randomColors[this.randomIndex]",
+            "type": "insert",
+            "newNumber": 71
+          },
+          {
+            "content": "+    ctx.strokeStyle = c",
+            "type": "insert",
+            "newNumber": 72
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 73
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 74
+          },
+          {
+            "content": "+  setRandomFill(a: number) {",
+            "type": "insert",
+            "newNumber": 75
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 76
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 77
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 78
+          },
+          {
+            "content": "+    this.randomIndex = (this.randomIndex + 1) % this.randomColors.length",
+            "type": "insert",
+            "newNumber": 79
+          },
+          {
+            "content": "+    a = typeof a === 'undefined' ? 1 : a",
+            "type": "insert",
+            "newNumber": 80
+          },
+          {
+            "content": "+    let c = this.randomColors[this.randomIndex]",
+            "type": "insert",
+            "newNumber": 81
+          },
+          {
+            "content": "+    c = c.replace('hsl(', 'hsla(').replace(')', `,${a})`)",
+            "type": "insert",
+            "newNumber": 82
+          },
+          {
+            "content": "+    ctx.fillStyle = c",
+            "type": "insert",
+            "newNumber": 83
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 84
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 85
+          },
+          {
+            "content": "+  setFill(c: string) {",
+            "type": "insert",
+            "newNumber": 86
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 87
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 88
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 89
+          },
+          {
+            "content": "+    ctx.fillStyle = c",
+            "type": "insert",
+            "newNumber": 90
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 91
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 92
+          },
+          {
+            "content": "+  noFill() {",
+            "type": "insert",
+            "newNumber": 93
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 94
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 95
+          },
+          {
+            "content": "+    ctx.fillStyle = 'transparent'",
+            "type": "insert",
+            "newNumber": 96
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 97
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 98
+          },
+          {
+            "content": "+  drawSkeleton(curve: Bezier, offset?: Coordinate, noCoords?: boolean) {",
+            "type": "insert",
+            "newNumber": 99
+          },
+          {
+            "content": "+    if (!this.ctx) return",
+            "type": "insert",
+            "newNumber": 100
+          },
+          {
+            "content": "+    offset = offset || { x: 0, y: 0 }",
+            "type": "insert",
+            "newNumber": 101
+          },
+          {
+            "content": "+    const pts = curve.points",
+            "type": "insert",
+            "newNumber": 102
+          },
+          {
+            "content": "+    this.ctx.strokeStyle = 'lightgrey'",
+            "type": "insert",
+            "newNumber": 103
+          },
+          {
+            "content": "+    this.drawLine(pts[0], pts[1], offset)",
+            "type": "insert",
+            "newNumber": 104
+          },
+          {
+            "content": "+    if (pts.length === 3)",
+            "type": "insert",
+            "newNumber": 105
+          },
+          {
+            "content": "+      this.drawLine(pts[1], pts[2], offset)",
+            "type": "insert",
+            "newNumber": 106
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 107
+          },
+          {
+            "content": "+    else",
+            "type": "insert",
+            "newNumber": 108
+          },
+          {
+            "content": "+      this.drawLine(pts[2], pts[3], offset)",
+            "type": "insert",
+            "newNumber": 109
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 110
+          },
+          {
+            "content": "+    this.ctx.strokeStyle = 'black'",
+            "type": "insert",
+            "newNumber": 111
+          },
+          {
+            "content": "+    if (!noCoords) this.drawPoints(pts, offset)",
+            "type": "insert",
+            "newNumber": 112
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 113
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 114
+          },
+          {
+            "content": "+  // 绘制贝塞尔曲线",
+            "type": "insert",
+            "newNumber": 115
+          },
+          {
+            "content": "+  drawCurve(curve: Bezier, offset?: Coordinate) {",
+            "type": "insert",
+            "newNumber": 116
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 117
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 118
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 119
+          },
+          {
+            "content": "+    offset = offset || { x: 0, y: 0 }",
+            "type": "insert",
+            "newNumber": 120
+          },
+          {
+            "content": "+    const ox = offset.x",
+            "type": "insert",
+            "newNumber": 121
+          },
+          {
+            "content": "+    const oy = offset.y",
+            "type": "insert",
+            "newNumber": 122
+          },
+          {
+            "content": "+    ctx.beginPath()",
+            "type": "insert",
+            "newNumber": 123
+          },
+          {
+            "content": "+    const p = curve.points",
+            "type": "insert",
+            "newNumber": 124
+          },
+          {
+            "content": "+    ctx.moveTo(p[0].x + ox, p[0].y + oy)",
+            "type": "insert",
+            "newNumber": 125
+          },
+          {
+            "content": "+    if (p.length === 3)",
+            "type": "insert",
+            "newNumber": 126
+          },
+          {
+            "content": "+      ctx.quadraticCurveTo(p[1].x + ox, p[1].y + oy, p[2].x + ox, p[2].y + oy)",
+            "type": "insert",
+            "newNumber": 127
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 128
+          },
+          {
+            "content": "+    if (p.length === 4) {",
+            "type": "insert",
+            "newNumber": 129
+          },
+          {
+            "content": "+      ctx.bezierCurveTo(",
+            "type": "insert",
+            "newNumber": 130
+          },
+          {
+            "content": "+        p[1].x + ox,",
+            "type": "insert",
+            "newNumber": 131
+          },
+          {
+            "content": "+        p[1].y + oy,",
+            "type": "insert",
+            "newNumber": 132
+          },
+          {
+            "content": "+        p[2].x + ox,",
+            "type": "insert",
+            "newNumber": 133
+          },
+          {
+            "content": "+        p[2].y + oy,",
+            "type": "insert",
+            "newNumber": 134
+          },
+          {
+            "content": "+        p[3].x + ox,",
+            "type": "insert",
+            "newNumber": 135
+          },
+          {
+            "content": "+        p[3].y + oy,",
+            "type": "insert",
+            "newNumber": 136
+          },
+          {
+            "content": "+      )",
+            "type": "insert",
+            "newNumber": 137
+          },
+          {
+            "content": "+    }",
+            "type": "insert",
+            "newNumber": 138
+          },
+          {
+            "content": "+    ctx.stroke()",
+            "type": "insert",
+            "newNumber": 139
+          },
+          {
+            "content": "+    ctx.closePath()",
+            "type": "insert",
+            "newNumber": 140
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 141
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 142
+          },
+          {
+            "content": "+  drawLine(p1: Coordinate, p2: Coordinate, offset: Coordinate) {",
+            "type": "insert",
+            "newNumber": 143
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 144
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 145
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 146
+          },
+          {
+            "content": "+    offset = offset || { x: 0, y: 0 }",
+            "type": "insert",
+            "newNumber": 147
+          },
+          {
+            "content": "+    const ox = offset.x",
+            "type": "insert",
+            "newNumber": 148
+          },
+          {
+            "content": "+    const oy = offset.y",
+            "type": "insert",
+            "newNumber": 149
+          },
+          {
+            "content": "+    ctx.beginPath()",
+            "type": "insert",
+            "newNumber": 150
+          },
+          {
+            "content": "+    ctx.moveTo(p1.x + ox, p1.y + oy)",
+            "type": "insert",
+            "newNumber": 151
+          },
+          {
+            "content": "+    ctx.lineTo(p2.x + ox, p2.y + oy)",
+            "type": "insert",
+            "newNumber": 152
+          },
+          {
+            "content": "+    ctx.stroke()",
+            "type": "insert",
+            "newNumber": 153
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 154
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 155
+          },
+          {
+            "content": "+  drawPoint(p: Coordinate, offset: Coordinate) {",
+            "type": "insert",
+            "newNumber": 156
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 157
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 158
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 159
+          },
+          {
+            "content": "+    offset = offset || { x: 0, y: 0 }",
+            "type": "insert",
+            "newNumber": 160
+          },
+          {
+            "content": "+    const ox = offset.x",
+            "type": "insert",
+            "newNumber": 161
+          },
+          {
+            "content": "+    const oy = offset.y",
+            "type": "insert",
+            "newNumber": 162
+          },
+          {
+            "content": "+    ctx.beginPath()",
+            "type": "insert",
+            "newNumber": 163
+          },
+          {
+            "content": "+    ctx.arc(p.x + ox, p.y + oy, 5, 0, 2 * Math.PI)",
+            "type": "insert",
+            "newNumber": 164
+          },
+          {
+            "content": "+    ctx.stroke()",
+            "type": "insert",
+            "newNumber": 165
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 166
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 167
+          },
+          {
+            "content": "+  drawPoints(points: Coordinate[], offset: Coordinate) {",
+            "type": "insert",
+            "newNumber": 168
+          },
+          {
+            "content": "+    offset = offset || { x: 0, y: 0 }",
+            "type": "insert",
+            "newNumber": 169
+          },
+          {
+            "content": "+    points.forEach(p => this.drawCircle(p, 3, offset))",
+            "type": "insert",
+            "newNumber": 170
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 171
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 172
+          },
+          {
+            "content": "+  drawArc(p: Parameters<CanvasPath['arc']>, offset: Coordinate) {",
+            "type": "insert",
+            "newNumber": 173
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 174
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 175
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 176
+          },
+          {
+            "content": "+    offset = offset || { x: 0, y: 0 }",
+            "type": "insert",
+            "newNumber": 177
+          },
+          {
+            "content": "+    const ox = offset.x",
+            "type": "insert",
+            "newNumber": 178
+          },
+          {
+            "content": "+    const oy = offset.y",
+            "type": "insert",
+            "newNumber": 179
+          },
+          {
+            "content": "+    ctx.beginPath()",
+            "type": "insert",
+            "newNumber": 180
+          },
+          {
+            "content": "+    ctx.moveTo(p[0] + ox, p[1] + oy)",
+            "type": "insert",
+            "newNumber": 181
+          },
+          {
+            "content": "+    ctx.arc(...p)",
+            "type": "insert",
+            "newNumber": 182
+          },
+          {
+            "content": "+    ctx.lineTo(p[0] + ox, p[1] + oy)",
+            "type": "insert",
+            "newNumber": 183
+          },
+          {
+            "content": "+    ctx.fill()",
+            "type": "insert",
+            "newNumber": 184
+          },
+          {
+            "content": "+    ctx.stroke()",
+            "type": "insert",
+            "newNumber": 185
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 186
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 187
+          },
+          {
+            "content": "+  drawCircle(p: Coordinate, r: number, offset: Coordinate) {",
+            "type": "insert",
+            "newNumber": 188
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 189
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 190
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 191
+          },
+          {
+            "content": "+    offset = offset || { x: 0, y: 0 }",
+            "type": "insert",
+            "newNumber": 192
+          },
+          {
+            "content": "+    const ox = offset.x",
+            "type": "insert",
+            "newNumber": 193
+          },
+          {
+            "content": "+    const oy = offset.y",
+            "type": "insert",
+            "newNumber": 194
+          },
+          {
+            "content": "+    ctx.beginPath()",
+            "type": "insert",
+            "newNumber": 195
+          },
+          {
+            "content": "+    ctx.arc(p.x + ox, p.y + oy, r, 0, 2 * Math.PI)",
+            "type": "insert",
+            "newNumber": 196
+          },
+          {
+            "content": "+    ctx.stroke()",
+            "type": "insert",
+            "newNumber": 197
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 198
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 199
+          },
+          {
+            "content": "+  drawHull(hull: Tuple<Coordinate, 6 | 8>) {",
+            "type": "insert",
+            "newNumber": 200
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 201
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 202
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 203
+          },
+          {
+            "content": "+    ctx.beginPath()",
+            "type": "insert",
+            "newNumber": 204
+          },
+          {
+            "content": "+    if (hull.length === 6) {",
+            "type": "insert",
+            "newNumber": 205
+          },
+          {
+            "content": "+      ctx.moveTo(hull[0].x, hull[0].y)",
+            "type": "insert",
+            "newNumber": 206
+          },
+          {
+            "content": "+      ctx.lineTo(hull[1].x, hull[1].y)",
+            "type": "insert",
+            "newNumber": 207
+          },
+          {
+            "content": "+      ctx.lineTo(hull[2].x, hull[2].y)",
+            "type": "insert",
+            "newNumber": 208
+          },
+          {
+            "content": "+      ctx.moveTo(hull[3].x, hull[3].y)",
+            "type": "insert",
+            "newNumber": 209
+          },
+          {
+            "content": "+      ctx.lineTo(hull[4].x, hull[4].y)",
+            "type": "insert",
+            "newNumber": 210
+          },
+          {
+            "content": "+    }",
+            "type": "insert",
+            "newNumber": 211
+          },
+          {
+            "content": "+    else {",
+            "type": "insert",
+            "newNumber": 212
+          },
+          {
+            "content": "+      ctx.moveTo(hull[0].x, hull[0].y)",
+            "type": "insert",
+            "newNumber": 213
+          },
+          {
+            "content": "+      ctx.lineTo(hull[1].x, hull[1].y)",
+            "type": "insert",
+            "newNumber": 214
+          },
+          {
+            "content": "+      ctx.lineTo(hull[2].x, hull[2].y)",
+            "type": "insert",
+            "newNumber": 215
+          },
+          {
+            "content": "+      ctx.lineTo(hull[3].x, hull[3].y)",
+            "type": "insert",
+            "newNumber": 216
+          },
+          {
+            "content": "+      ctx.moveTo(hull[4].x, hull[4].y)",
+            "type": "insert",
+            "newNumber": 217
+          },
+          {
+            "content": "+      ctx.lineTo(hull[5].x, hull[5].y)",
+            "type": "insert",
+            "newNumber": 218
+          },
+          {
+            "content": "+      ctx.lineTo(hull[6].x, hull[6].y)",
+            "type": "insert",
+            "newNumber": 219
+          },
+          {
+            "content": "+      ctx.moveTo(hull[7].x, hull[7].y)",
+            "type": "insert",
+            "newNumber": 220
+          },
+          {
+            "content": "+      ctx.lineTo(hull[8].x, hull[8].y)",
+            "type": "insert",
+            "newNumber": 221
+          },
+          {
+            "content": "+    }",
+            "type": "insert",
+            "newNumber": 222
+          },
+          {
+            "content": "+    ctx.stroke()",
+            "type": "insert",
+            "newNumber": 223
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 224
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 225
+          },
+          {
+            "content": "+  drawShape(shape: Shape, offset?: Coordinate) {",
+            "type": "insert",
+            "newNumber": 226
+          },
+          {
+            "content": "+    const ctx = this.ctx",
+            "type": "insert",
+            "newNumber": 227
+          },
+          {
+            "content": "+    if (!ctx) return",
+            "type": "insert",
+            "newNumber": 228
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 229
+          },
+          {
+            "content": "+    offset = offset || { x: 0, y: 0 }",
+            "type": "insert",
+            "newNumber": 230
+          },
+          {
+            "content": "+    const order = shape.forward.points.length - 1",
+            "type": "insert",
+            "newNumber": 231
+          },
+          {
+            "content": "+    const scl = shape.startcap.points.length",
+            "type": "insert",
+            "newNumber": 232
+          },
+          {
+            "content": "+    const ecl = shape.endcap.points.length",
+            "type": "insert",
+            "newNumber": 233
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 234
+          },
+          {
+            "content": "+    ctx.beginPath()",
+            "type": "insert",
+            "newNumber": 235
+          },
+          {
+            "content": "+    ctx.moveTo(",
+            "type": "insert",
+            "newNumber": 236
+          },
+          {
+            "content": "+      offset.x + shape.startcap.points[0].x,",
+            "type": "insert",
+            "newNumber": 237
+          },
+          {
+            "content": "+      offset.y + shape.startcap.points[0].y,",
+            "type": "insert",
+            "newNumber": 238
+          },
+          {
+            "content": "+    )",
+            "type": "insert",
+            "newNumber": 239
+          },
+          {
+            "content": "+    ctx.lineTo(",
+            "type": "insert",
+            "newNumber": 240
+          },
+          {
+            "content": "+      offset.x + shape.startcap.points[scl - 1].x,",
+            "type": "insert",
+            "newNumber": 241
+          },
+          {
+            "content": "+      offset.y + shape.startcap.points[scl - 1].y,",
+            "type": "insert",
+            "newNumber": 242
+          },
+          {
+            "content": "+    )",
+            "type": "insert",
+            "newNumber": 243
+          },
+          {
+            "content": "+    if (order === 3) {",
+            "type": "insert",
+            "newNumber": 244
+          },
+          {
+            "content": "+      ctx.bezierCurveTo(",
+            "type": "insert",
+            "newNumber": 245
+          },
+          {
+            "content": "+        offset.x + shape.forward.points[1].x,",
+            "type": "insert",
+            "newNumber": 246
+          },
+          {
+            "content": "+        offset.y + shape.forward.points[1].y,",
+            "type": "insert",
+            "newNumber": 247
+          },
+          {
+            "content": "+        offset.x + shape.forward.points[2].x,",
+            "type": "insert",
+            "newNumber": 248
+          },
+          {
+            "content": "+        offset.y + shape.forward.points[2].y,",
+            "type": "insert",
+            "newNumber": 249
+          },
+          {
+            "content": "+        offset.x + shape.forward.points[3].x,",
+            "type": "insert",
+            "newNumber": 250
+          },
+          {
+            "content": "+        offset.y + shape.forward.points[3].y,",
+            "type": "insert",
+            "newNumber": 251
+          },
+          {
+            "content": "+      )",
+            "type": "insert",
+            "newNumber": 252
+          },
+          {
+            "content": "+    }",
+            "type": "insert",
+            "newNumber": 253
+          },
+          {
+            "content": "+    else {",
+            "type": "insert",
+            "newNumber": 254
+          },
+          {
+            "content": "+      ctx.quadraticCurveTo(",
+            "type": "insert",
+            "newNumber": 255
+          },
+          {
+            "content": "+        offset.x + shape.forward.points[1].x,",
+            "type": "insert",
+            "newNumber": 256
+          },
+          {
+            "content": "+        offset.y + shape.forward.points[1].y,",
+            "type": "insert",
+            "newNumber": 257
+          },
+          {
+            "content": "+        offset.x + shape.forward.points[2].x,",
+            "type": "insert",
+            "newNumber": 258
+          },
+          {
+            "content": "+        offset.y + shape.forward.points[2].y,",
+            "type": "insert",
+            "newNumber": 259
+          },
+          {
+            "content": "+      )",
+            "type": "insert",
+            "newNumber": 260
+          },
+          {
+            "content": "+    }",
+            "type": "insert",
+            "newNumber": 261
+          },
+          {
+            "content": "+    ctx.lineTo(",
+            "type": "insert",
+            "newNumber": 262
+          },
+          {
+            "content": "+      offset.x + shape.endcap.points[ecl - 1].x,",
+            "type": "insert",
+            "newNumber": 263
+          },
+          {
+            "content": "+      offset.y + shape.endcap.points[ecl - 1].y,",
+            "type": "insert",
+            "newNumber": 264
+          },
+          {
+            "content": "+    )",
+            "type": "insert",
+            "newNumber": 265
+          },
+          {
+            "content": "+    if (order === 3) {",
+            "type": "insert",
+            "newNumber": 266
+          },
+          {
+            "content": "+      ctx.bezierCurveTo(",
+            "type": "insert",
+            "newNumber": 267
+          },
+          {
+            "content": "+        offset.x + shape.back.points[1].x,",
+            "type": "insert",
+            "newNumber": 268
+          },
+          {
+            "content": "+        offset.y + shape.back.points[1].y,",
+            "type": "insert",
+            "newNumber": 269
+          },
+          {
+            "content": "+        offset.x + shape.back.points[2].x,",
+            "type": "insert",
+            "newNumber": 270
+          },
+          {
+            "content": "+        offset.y + shape.back.points[2].y,",
+            "type": "insert",
+            "newNumber": 271
+          },
+          {
+            "content": "+        offset.x + shape.back.points[3].x,",
+            "type": "insert",
+            "newNumber": 272
+          },
+          {
+            "content": "+        offset.y + shape.back.points[3].y,",
+            "type": "insert",
+            "newNumber": 273
+          },
+          {
+            "content": "+      )",
+            "type": "insert",
+            "newNumber": 274
+          },
+          {
+            "content": "+    }",
+            "type": "insert",
+            "newNumber": 275
+          },
+          {
+            "content": "+    else {",
+            "type": "insert",
+            "newNumber": 276
+          },
+          {
+            "content": "+      ctx.quadraticCurveTo(",
+            "type": "insert",
+            "newNumber": 277
+          },
+          {
+            "content": "+        offset.x + shape.back.points[1].x,",
+            "type": "insert",
+            "newNumber": 278
+          },
+          {
+            "content": "+        offset.y + shape.back.points[1].y,",
+            "type": "insert",
+            "newNumber": 279
+          },
+          {
+            "content": "+        offset.x + shape.back.points[2].x,",
+            "type": "insert",
+            "newNumber": 280
+          },
+          {
+            "content": "+        offset.y + shape.back.points[2].y,",
+            "type": "insert",
+            "newNumber": 281
+          },
+          {
+            "content": "+      )",
+            "type": "insert",
+            "newNumber": 282
+          },
+          {
+            "content": "+    }",
+            "type": "insert",
+            "newNumber": 283
+          },
+          {
+            "content": "+    ctx.closePath()",
+            "type": "insert",
+            "newNumber": 284
+          },
+          {
+            "content": "+    ctx.fill()",
+            "type": "insert",
+            "newNumber": 285
+          },
+          {
+            "content": "+    ctx.stroke()",
+            "type": "insert",
+            "newNumber": 286
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 287
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 288
+          },
+          {
+            "content": "+  drawText(text: string, offset: Coordinate) {",
+            "type": "insert",
+            "newNumber": 289
+          },
+          {
+            "content": "+    if (!this.ctx) return",
+            "type": "insert",
+            "newNumber": 290
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 291
+          },
+          {
+            "content": "+    offset = offset || { x: 0, y: 0 }",
+            "type": "insert",
+            "newNumber": 292
+          },
+          {
+            "content": "+    this.ctx.fillText(text, offset.x, offset.y)",
+            "type": "insert",
+            "newNumber": 293
+          },
+          {
+            "content": "+  }",
+            "type": "insert",
+            "newNumber": 294
+          },
+          {
+            "content": "+}",
+            "type": "insert",
+            "newNumber": 295
+          }
+        ],
+        "oldStartLine": 0,
+        "oldStartLine2": null,
+        "newStartLine": 1,
+        "header": "@@ -0,0 +1,295 @@"
+      }
+    ],
+    "deletedLines": 0,
+    "addedLines": 295,
+    "isGitDiff": true,
+    "newFileMode": "100644",
+    "isNew": true,
+    "checksumBefore": "0000000",
+    "checksumAfter": "8432795",
+    "oldName": "/dev/null",
+    "language": "ts",
+    "newName": "src/pages/konva-page/utils/curve-drawer.ts",
+    "isCombined": false
+  },
+  {
+    "blocks": [
+      {
+        "lines": [
+          {
+            "content": " import { Welcome } from '../pages/welcome'",
+            "type": "context",
+            "oldNumber": 11,
+            "newNumber": 11
+          },
+          {
+            "content": " import { RequireAuth } from '../pages/auth/components/require-auth'",
+            "type": "context",
+            "oldNumber": 12,
+            "newNumber": 12
+          },
+          {
+            "content": " import { NoMatch } from '../pages/no-match'",
+            "type": "context",
+            "oldNumber": 13,
+            "newNumber": 13
+          },
+          {
+            "content": "+import { KonvaPage } from '../pages/konva-page'",
+            "type": "insert",
+            "newNumber": 14
+          },
+          {
+            "content": "+import { RouterKey } from './models/enums'",
+            "type": "insert",
+            "newNumber": 15
+          },
+          {
+            "content": " ",
+            "type": "context",
+            "oldNumber": 14,
+            "newNumber": 16
+          },
+          {
+            "content": " const router = createBrowserRouter([",
+            "type": "context",
+            "oldNumber": 15,
+            "newNumber": 17
+          },
+          {
+            "content": "   {",
+            "type": "context",
+            "oldNumber": 16,
+            "newNumber": 18
+          },
+          {
+            "content": "     element: <Layout />,",
+            "type": "context",
+            "oldNumber": 17,
+            "newNumber": 19
+          },
+          {
+            "content": "     children: [",
+            "type": "context",
+            "oldNumber": 18,
+            "newNumber": 20
+          },
+          {
+            "content": "       {",
+            "type": "context",
+            "oldNumber": 19,
+            "newNumber": 21
+          },
+          {
+            "content": "-        path: '/',",
+            "type": "delete",
+            "oldNumber": 20
+          },
+          {
+            "content": "+        path: RouterKey.Home,",
+            "type": "insert",
+            "newNumber": 22
+          },
+          {
+            "content": "         element: <Welcome />,",
+            "type": "context",
+            "oldNumber": 21,
+            "newNumber": 23
+          },
+          {
+            "content": "       },",
+            "type": "context",
+            "oldNumber": 22,
+            "newNumber": 24
+          },
+          {
+            "content": "       {",
+            "type": "context",
+            "oldNumber": 23,
+            "newNumber": 25
+          },
+          {
+            "content": "-        path: '/login',",
+            "type": "delete",
+            "oldNumber": 24
+          },
+          {
+            "content": "+        path: RouterKey.Login,",
+            "type": "insert",
+            "newNumber": 26
+          },
+          {
+            "content": "         element: <Login />,",
+            "type": "context",
+            "oldNumber": 25,
+            "newNumber": 27
+          },
+          {
+            "content": "       },",
+            "type": "context",
+            "oldNumber": 26,
+            "newNumber": 28
+          },
+          {
+            "content": "       {",
+            "type": "context",
+            "oldNumber": 27,
+            "newNumber": 29
+          },
+          {
+            "content": "-        path: '/react-table-page',",
+            "type": "delete",
+            "oldNumber": 28
+          },
+          {
+            "content": "+        path: RouterKey.ReactTablePage,",
+            "type": "insert",
+            "newNumber": 30
+          },
+          {
+            "content": "         element: (",
+            "type": "context",
+            "oldNumber": 29,
+            "newNumber": 31
+          },
+          {
+            "content": "           <RequireAuth>",
+            "type": "context",
+            "oldNumber": 30,
+            "newNumber": 32
+          },
+          {
+            "content": "             <ReactTablePage />",
+            "type": "context",
+            "oldNumber": 31,
+            "newNumber": 33
+          },
+          {
+            "content": "           </RequireAuth>",
+            "type": "context",
+            "oldNumber": 32,
+            "newNumber": 34
+          },
+          {
+            "content": "         ),",
+            "type": "context",
+            "oldNumber": 33,
+            "newNumber": 35
+          },
+          {
+            "content": "       },",
+            "type": "context",
+            "oldNumber": 34,
+            "newNumber": 36
+          },
+          {
+            "content": "+      {",
+            "type": "insert",
+            "newNumber": 37
+          },
+          {
+            "content": "+",
+            "type": "insert",
+            "newNumber": 38
+          },
+          {
+            "content": "+        path: RouterKey.KonvaPage,",
+            "type": "insert",
+            "newNumber": 39
+          },
+          {
+            "content": "+        element: (",
+            "type": "insert",
+            "newNumber": 40
+          },
+          {
+            "content": "+          <RequireAuth>",
+            "type": "insert",
+            "newNumber": 41
+          },
+          {
+            "content": "+            <KonvaPage />",
+            "type": "insert",
+            "newNumber": 42
+          },
+          {
+            "content": "+          </RequireAuth>",
+            "type": "insert",
+            "newNumber": 43
+          },
+          {
+            "content": "+        ),",
+            "type": "insert",
+            "newNumber": 44
+          },
+          {
+            "content": "+      },",
+            "type": "insert",
+            "newNumber": 45
+          },
+          {
+            "content": "       {",
+            "type": "context",
+            "oldNumber": 35,
+            "newNumber": 46
+          },
+          {
+            "content": "         path: '*',",
+            "type": "context",
+            "oldNumber": 36,
+            "newNumber": 47
+          },
+          {
+            "content": "         element: <NoMatch />,",
+            "type": "context",
+            "oldNumber": 37,
+            "newNumber": 48
+          }
+        ],
+        "oldStartLine": 11,
+        "oldStartLine2": null,
+        "newStartLine": 11,
+        "header": "@@ -11,27 +11,38 @@ import { Layout } from '../pages/layout'"
+      }
+    ],
+    "deletedLines": 3,
+    "addedLines": 14,
+    "isGitDiff": true,
+    "checksumBefore": "753b043",
+    "checksumAfter": "28680ba",
+    "mode": "100644",
+    "oldName": "src/router/index.tsx",
+    "language": "tsx",
+    "newName": "src/router/index.tsx",
+    "isCombined": false
+  },
+  {
+    "blocks": [
+      {
+        "lines": [
+          {
+            "content": "   Login = '/login',",
+            "type": "context",
+            "oldNumber": 10,
+            "newNumber": 10
+          },
+          {
+            "content": "   /** React Table */",
+            "type": "context",
+            "oldNumber": 11,
+            "newNumber": 11
+          },
+          {
+            "content": "   ReactTablePage = '/react-table-page',",
+            "type": "context",
+            "oldNumber": 12,
+            "newNumber": 12
+          },
+          {
+            "content": "+  /** 图形绘制页 */",
+            "type": "insert",
+            "newNumber": 13
+          },
+          {
+            "content": "+  KonvaPage = '/konva-page',",
+            "type": "insert",
+            "newNumber": 14
+          },
+          {
+            "content": " }",
+            "type": "context",
+            "oldNumber": 13,
+            "newNumber": 15
+          }
+        ],
+        "oldStartLine": 10,
+        "oldStartLine2": null,
+        "newStartLine": 10,
+        "header": "@@ -10,4 +10,6 @@ export const enum RouterKey {"
+      }
+    ],
+    "deletedLines": 0,
+    "addedLines": 2,
+    "isGitDiff": true,
+    "checksumBefore": "90fbe83",
+    "checksumAfter": "e968fe2",
+    "mode": "100644",
+    "oldName": "src/router/models/enums.ts",
+    "language": "ts",
+    "newName": "src/router/models/enums.ts",
+    "isCombined": false
+  }
+]
