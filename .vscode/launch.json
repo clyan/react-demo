@@ -25,8 +25,18 @@
         "<node_internals>/**"
       ],
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "debug"],
-      "program": "${workspaceFolder}/scripts/plugins/babel-plugin-test.js"
+      "runtimeArgs": ["run", "debug"]
+    },
+    {
+      "name": "diff1",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node",
+
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "diff1"]
     }
   ]
 }

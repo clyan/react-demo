@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "@babel/helper-plugin-utils": "^7.24.6",
+    "@babel/types": "^7.24.7",
     "@clyan/eslint-config-react": "^1.0.1",
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
@@ -54,6 +55,7 @@
     "@types/react-dom": "^18.2.0",
     "@unocss/cli": "^0.51.13",
     "@unocss/webpack": "^0.51.13",
+    "acorn": "^8.11.3",
     "diff2html": "^3.4.48",
     "eslint": "^8.39.0",
     "git-cz": "^4.9.0",

@@ -1,5 +1,6 @@
 const UnoCSS =  require('@unocss/webpack').default
-const  {TsconfigPathsPlugin} = require("tsconfig-paths-webpack-plugin") ;
+const  { TsconfigPathsPlugin } = require("tsconfig-paths-webpack-plugin") ;
+const  { TestWebpackPlugin } = require("./scripts/plugins/test-webpack-plugin") ;
 
 const cracoConfig = {
   babel: {
@@ -15,6 +16,7 @@ const cracoConfig = {
 
       resolve?.plugins?.push(new TsconfigPathsPlugin())
       plugins?.push(UnoCSS())
+      plugins?.push(new TestWebpackPlugin())
 
       // 删除 ModuleScopePlugin
       const index = resolve.plugins?.findIndex(item => {
